@@ -1,0 +1,23 @@
+[package]
+name = "kartoteka"
+version = "0.5.0"
+edition = "2021"
+authors = ["popovantondev"]
+description = "Локальная картотека — офлайн приложение для Windows"
+
+[dependencies]
+eframe = { version = "0.31.1", default-features = false, features = ["default_fonts", "glow", "x11", "wayland"] }
+egui_extras = { version = "0.31.1", features = ["datepicker"] }
+rusqlite = { version = "0.34.0", features = ["bundled"] }
+chrono = { version = "0.4.40", features = ["clock"] }
+image = { version = "0.25.6", default-features = false, features = ["jpeg", "png", "bmp", "webp"] }
+rfd = "0.15.3"
+open = "5.3.2"
+uuid = { version = "1.16.0", features = ["v4"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true

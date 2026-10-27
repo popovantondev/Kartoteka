@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "name": "Kartoteka",
+  "repo": "Kartoteka",
+  "version": "0.5.0",
+  "platform": "Windows 11 · x64",
+  "status": "release",
+  "published": true,
+  "tag": "v0.5.0",
+  "source_url": "https://github.com/popovantondev/Kartoteka",
+  "release_url": "https://github.com/popovantondev/Kartoteka/releases/tag/v0.5.0",
+  "languages": [
+    "ru",
+    "de",
+    "en"
+  ],
+  "runtime_target": "Windows11 x64; Rust/egui, SQLite; per-user installation",
+  "description": {
+    "ru": "Храните карточки одноклассников и другие списки на своём компьютере. Таблицы, собственные поля, фотографии, документы, поиск и резервные копии — в одном приложении.",
+    "de": "Verwalten Sie Klassenkameraden und andere Listen auf Ihrem eigenen Computer. Karten, Tabellen, eigene Felder, Fotos, Dokumente, Suche und Sicherungen in einer Anwendung.",
+    "en": "Keep classmates and other lists on your own computer. Cards, tables, custom fields, photos, documents, search and backups in one application."
+  },
+  "requirements": {
+    "ru": "Проверено на Windows 11 x 64. EXE не подписан. Таблица показывает до 2000 строк, поиск — до 500 результатов. Свободное перетягивание полей формы и импорт Microsoft Access не реализованы. Системный DPI 125/150% и два монитора отдельно не проверены; качество сглаживания зависит от рендера egui. Программа не отправляет телеметрию; основные функции работают офлайн.",
+    "de": "Auf Windows 11 x 64 geprüft. Die EXE ist nicht signiert. Die Tabelle zeigt bis zu 2000 Zeilen, die Suche bis zu 500 Treffer. Freie Formularanordnung und Microsoft-Access-Import sind nicht implementiert. Windows-DPI 125/150% und zwei Monitore sind nicht separat geprüft; die Schriftglättung hängt vom egui-Renderer ab. Keine Telemetrie; Kernfunktionen arbeiten offline.",
+    "en": "Tested on Windows 11 x 64. The EXE is unsigned. The table shows up to 2,000 rows and search up to 500 results. Free-form layout editing and Microsoft Access import are not implemented. Windows DPI 125/150% and two monitors were not separately tested; font smoothing depends on the egui renderer. No telemetry; core features work offline."
+  },
+  "start": {
+    "ru": "Запустите Kartoteka-0.5.0-Setup.exe и оставьте предложенную папку текущего пользователя. Права администратора и Rust не требуются. Перед обновлением сохраните изменения и закройте старое окно. Для запуска без установки распакуйте весь переносной ZIP: EXE и три DLL должны находиться рядом.",
+    "de": "Starten Sie Kartoteka-0.5.0-Setup.exe und behalten Sie den vorgeschlagenen Benutzerordner. Administratorrechte und Rust sind nicht erforderlich. Speichern und schließen Sie die alte Anwendung vor einem Update. Ohne Installation: das gesamte portable ZIP entpacken; EXE und drei DLL-Dateien müssen zusammenbleiben.",
+    "en": "Run Kartoteka-0.5.0-Setup.exe and keep the suggested user folder. Administrator rights and Rust are not required. Save your work and close the old application before updating. For a portable launch, extract the entire ZIP; keep the EXE and three DLL files together."
+  },
+  "readmes": {
+    "ru": [
+      "README.ru.md"
+    ],
+    "de": [
+      "README.de.md"
+    ],
+    "en": [
+      "README.md"
+    ]
+  },
+  "guides": {
+    "ru": "Guide-ru.html",
+    "de": "Guide-de.html",
+    "en": "Guide-en.html"
+  },
+  "help_url": "https://popovantondev.github.io/Kartoteka/Guide-{lang}.html",
+  "feedback_url": "https://github.com/popovantondev/Kartoteka/issues/new",
+  "navigation": {
+    "ru": {
+      "website": "https://popovantondev.github.io/Kartoteka/index-ru.html",
+      "guide": "https://popovantondev.github.io/Kartoteka/Guide-ru.html"
+    },
+    "de": {
+      "website": "https://popovantondev.github.io/Kartoteka/index-de.html",
+      "guide": "https://popovantondev.github.io/Kartoteka/Guide-de.html"
+    },
+    "en": {
+      "website": "https://popovantondev.github.io/Kartoteka/index.html",
+      "guide": "https://popovantondev.github.io/Kartoteka/Guide-en.html"
+    }
+  },
+  "downloads": [
+    "Kartoteka-0.5.0-Setup.exe",
+    "Kartoteka-0.5.0-Windows-x64.zip"
+  ],
+  "checksums": [
+    "SHA256SUMS.txt"
+  ],
+  "assets": [
+    {
+      "name": "Kartoteka-0.5.0-Setup.exe",
+      "url": "https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe",
+      "size": 4045247,
+      "sha256": "8d14f8b114d798cd94407a51919d22c8a52e4005109a44f250ff88913f1e44d7"
+    },
+    {
+      "name": "Kartoteka-0.5.0-Windows-x64.zip",
+      "url": "https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Windows-x64.zip",
+      "size": 5992516,
+      "sha256": "c1578f2ba821da712169b39f2dfd8341a159c4f92ce4a4bdada3884bde18081b"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "url": "https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/SHA256SUMS.txt",
+      "size": 283
+    }
+  ]
+}
