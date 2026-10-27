@@ -3,7 +3,7 @@
   "name": "Kartoteka",
   "repo": "Kartoteka",
   "version": "0.5.0",
-  "platform": "Windows11 · x64",
+  "platform": "Windows 11 · x64",
   "status": "release",
   "published": true,
   "tag": "v0.5.0",
@@ -64,11 +64,28 @@
   },
   "downloads": [
     "Kartoteka-0.5.0-Setup.exe",
-    "Kartoteka-0.5.0-Windows-x64.zip",
-    "Kartoteka-0.5.0-Source.zip"
+    "Kartoteka-0.5.0-Windows-x64.zip"
   ],
   "checksums": [
     "SHA256SUMS.txt"
   ],
-  "assets": []
+  "assets": [
+    {
+      "name": "Kartoteka-0.5.0-Setup.exe",
+      "url": "https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe",
+      "size": 4045247,
+      "sha256": "8d14f8b114d798cd94407a51919d22c8a52e4005109a44f250ff88913f1e44d7"
+    },
+    {
+      "name": "Kartoteka-0.5.0-Windows-x64.zip",
+      "url": "https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Windows-x64.zip",
+      "size": 5992516,
+      "sha256": "c1578f2ba821da712169b39f2dfd8341a159c4f92ce4a4bdada3884bde18081b"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "url": "https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/SHA256SUMS.txt",
+      "size": 283
+    }
+  ]
 }
