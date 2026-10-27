@@ -1,0 +1,1322 @@
+{
+  "Главная": {
+    "de": "Start",
+    "en": "Home"
+  },
+  "Карточка": {
+    "de": "Karte",
+    "en": "Card"
+  },
+  "Таблица": {
+    "de": "Tabelle",
+    "en": "Table"
+  },
+  "Поиск": {
+    "de": "Suche",
+    "en": "Search"
+  },
+  "Конструктор": {
+    "de": "Tabellenentwurf",
+    "en": "Designer"
+  },
+  "Формы": {
+    "de": "Formulare",
+    "en": "Forms"
+  },
+  "Резервные копии": {
+    "de": "Sicherungen",
+    "en": "Backups"
+  },
+  "Настройки": {
+    "de": "Einstellungen",
+    "en": "Settings"
+  },
+  "Справка": {
+    "de": "Hilfe",
+    "en": "Help"
+  },
+  "Готово": {
+    "de": "Bereit",
+    "en": "Ready"
+  },
+  "Данные обновлены": {
+    "de": "Daten aktualisiert",
+    "en": "Data refreshed"
+  },
+  "Закройте окно приложения, чтобы завершить работу": {
+    "de": "Schließen Sie das Fenster, um das Programm zu beenden",
+    "en": "Close the application window to exit"
+  },
+  "Запись № {id} сохранена": {
+    "de": "Datensatz Nr. {id} gespeichert",
+    "en": "Record no. {id} saved"
+  },
+  "Резервная копия создана: {}": {
+    "de": "Sicherung erstellt: {}",
+    "en": "Backup created: {}"
+  },
+  "База и вложения восстановлены. Перед восстановлением создана защитная копия.": {
+    "de": "Datenbank und Anhänge wiederhergestellt. Vorher wurde eine Schutzkopie erstellt.",
+    "en": "Database and attachments restored. A safety copy was created first."
+  },
+  "Новая база": {
+    "de": "Neue Datenbank",
+    "en": "New database"
+  },
+  "Фамилия": {
+    "de": "Nachname",
+    "en": "Last name"
+  },
+  "Имя": {
+    "de": "Vorname",
+    "en": "First name"
+  },
+  "Отчество": {
+    "de": "Vatersname",
+    "en": "Patronymic"
+  },
+  "Запись № {}": {
+    "de": "Datensatz Nr. {}",
+    "en": "Record no. {}"
+  },
+  "Полное меню / иконки / скрыто": {
+    "de": "Vollständiges Menü / Symbole / ausgeblendet",
+    "en": "Full menu / icons / hidden"
+  },
+  "Одноклассники — Картотека": {
+    "de": "Klassenkameraden — Kartoteka",
+    "en": "Classmates — Kartoteka"
+  },
+  "Картотека": {
+    "de": "Kartoteka",
+    "en": "Kartoteka"
+  },
+  "Новая запись": {
+    "de": "Neuer Datensatz",
+    "en": "New record"
+  },
+  "Поиск по записям": {
+    "de": "Datensätze durchsuchen",
+    "en": "Search records"
+  },
+  "Работает офлайн": {
+    "de": "Offline verfügbar",
+    "en": "Works offline"
+  },
+  "Перетяните к краю или от края · двойной щелчок переключает меню": {
+    "de": "Zum Rand oder vom Rand ziehen · Doppelklick schaltet das Menü um",
+    "en": "Drag towards or away from the edge · double-click to toggle the menu"
+  },
+  "Есть несохранённые изменения": {
+    "de": "Nicht gespeicherte Änderungen",
+    "en": "There are unsaved changes"
+  },
+  "Не удалось выполнить действие: {}": {
+    "de": "Aktion fehlgeschlagen: {}",
+    "en": "Action failed: {}"
+  },
+  "Закрыть": {
+    "de": "Schließen",
+    "en": "Close"
+  },
+  "Моя база данных": {
+    "de": "Meine Datenbank",
+    "en": "My database"
+  },
+  "Выберите действие, чтобы продолжить работу": {
+    "de": "Wählen Sie eine Aktion, um fortzufahren",
+    "en": "Choose an action to continue"
+  },
+  "Открыть картотеку": {
+    "de": "Kartei öffnen",
+    "en": "Open card index"
+  },
+  "Продолжить работу с карточками": {
+    "de": "Mit den Karten weiterarbeiten",
+    "en": "Continue working with cards"
+  },
+  "Добавить одноклассника": {
+    "de": "Klassenkameraden hinzufügen",
+    "en": "Add a classmate"
+  },
+  "Все записи в одном месте": {
+    "de": "Alle Datensätze an einem Ort",
+    "en": "All records in one place"
+  },
+  "Настроить таблицы и поля": {
+    "de": "Tabellen und Felder anpassen",
+    "en": "Configure tables and fields"
+  },
+  "Создать запись": {
+    "de": "Datensatz erstellen",
+    "en": "Create record"
+  },
+  "Открыть": {
+    "de": "Öffnen",
+    "en": "Open"
+  },
+  "Текущая база данных": {
+    "de": "Aktuelle Datenbank",
+    "en": "Current database"
+  },
+  "Все данные хранятся на этом компьютере": {
+    "de": "Alle Daten werden auf diesem Computer gespeichert",
+    "en": "All data is stored on this computer"
+  },
+  "Безопасность данных": {
+    "de": "Datensicherheit",
+    "en": "Data safety"
+  },
+  "Копия включает базу, фотографии и документы.": {
+    "de": "Die Sicherung enthält Datenbank, Fotos und Dokumente.",
+    "en": "The backup includes the database, photos and documents."
+  },
+  "Открыть резервные копии": {
+    "de": "Sicherungen öffnen",
+    "en": "Open backups"
+  },
+  "Здесь появятся ваши одноклассники": {
+    "de": "Hier erscheinen Ihre Klassenkameraden",
+    "en": "Your classmates will appear here"
+  },
+  "Нажмите «Новая запись», заполните карточку и сохраните её.": {
+    "de": "Klicken Sie auf „Neuer Datensatz“, füllen Sie die Karte aus und speichern Sie sie.",
+    "en": "Click “New record”, fill in the card and save it."
+  },
+  "Одноклассники": {
+    "de": "Klassenkameraden",
+    "en": "Classmates"
+  },
+  "Карточка ученика": {
+    "de": "Schülerkarte",
+    "en": "Student card"
+  },
+  "Карточка записи": {
+    "de": "Datensatzkarte",
+    "en": "Record card"
+  },
+  "Запись {} из {}": {
+    "de": "Datensatz {} von {}",
+    "en": "Record {} of {}"
+  },
+  "Изменения не сохранены": {
+    "de": "Änderungen nicht gespeichert",
+    "en": "Changes not saved"
+  },
+  "Все изменения сохранены": {
+    "de": "Alle Änderungen gespeichert",
+    "en": "All changes saved"
+  },
+  "В начало": {
+    "de": "Erster",
+    "en": "First"
+  },
+  "Назад": {
+    "de": "Zurück",
+    "en": "Previous"
+  },
+  "Вперёд": {
+    "de": "Weiter",
+    "en": "Next"
+  },
+  "В конец": {
+    "de": "Letzter",
+    "en": "Last"
+  },
+  "+ Новая": {
+    "de": "+ Neu",
+    "en": "+ New"
+  },
+  "Сохранить": {
+    "de": "Speichern",
+    "en": "Save"
+  },
+  "Отменить правки": {
+    "de": "Änderungen verwerfen",
+    "en": "Discard edits"
+  },
+  "Несохранённые правки отменены": {
+    "de": "Nicht gespeicherte Änderungen verworfen",
+    "en": "Unsaved edits discarded"
+  },
+  "Удалить": {
+    "de": "Löschen",
+    "en": "Delete"
+  },
+  "Перед удалением сохраните или отмените изменения карточки": {
+    "de": "Speichern oder verwerfen Sie die Änderungen vor dem Löschen",
+    "en": "Save or discard the card changes before deleting"
+  },
+  "Основные данные": {
+    "de": "Grunddaten",
+    "en": "Basic details"
+  },
+  "Присвоится автоматически": {
+    "de": "Wird automatisch vergeben",
+    "en": "Assigned automatically"
+  },
+  "Контакты": {
+    "de": "Kontakt",
+    "en": "Contact details"
+  },
+  "Телефон": {
+    "de": "Telefon",
+    "en": "Phone"
+  },
+  "Поля контактов не добавлены": {
+    "de": "Keine Kontaktfelder vorhanden",
+    "en": "No contact fields added"
+  },
+  "Дополнительная информация": {
+    "de": "Weitere Informationen",
+    "en": "Additional information"
+  },
+  "Добавить своё поле": {
+    "de": "Eigenes Feld hinzufügen",
+    "en": "Add custom field"
+  },
+  "Выбрать фото": {
+    "de": "Foto auswählen",
+    "en": "Choose photo"
+  },
+  "Выбрать фотографию с компьютера": {
+    "de": "Foto vom Computer auswählen",
+    "en": "Choose a photo from your computer"
+  },
+  "Заменить фото": {
+    "de": "Foto ersetzen",
+    "en": "Replace photo"
+  },
+  "Изображения": {
+    "de": "Bilder",
+    "en": "Images"
+  },
+  "Фото добавлено. Нажмите «Сохранить».": {
+    "de": "Foto hinzugefügt. Klicken Sie auf „Speichern“.",
+    "en": "Photo added. Click “Save”."
+  },
+  "Убрать": {
+    "de": "Entfernen",
+    "en": "Remove"
+  },
+  "Перейти на сайт": {
+    "de": "Website öffnen",
+    "en": "Open website"
+  },
+  "Не удалось открыть сайт: {e}": {
+    "de": "Website konnte nicht geöffnet werden: {e}",
+    "en": "Could not open website: {e}"
+  },
+  "Введите корректный адрес сайта": {
+    "de": "Geben Sie eine gültige Website-Adresse ein",
+    "en": "Enter a valid website address"
+  },
+  "Файл не прикреплён": {
+    "de": "Keine Datei angehängt",
+    "en": "No file attached"
+  },
+  "+ Выбрать файл": {
+    "de": "+ Datei auswählen",
+    "en": "+ Choose file"
+  },
+  "Документ добавлен. Сохраните запись.": {
+    "de": "Dokument hinzugefügt. Speichern Sie den Datensatz.",
+    "en": "Document added. Save the record."
+  },
+  "Открыть файл": {
+    "de": "Datei öffnen",
+    "en": "Open file"
+  },
+  "Таблица CSV": {
+    "de": "CSV-Tabelle",
+    "en": "CSV table"
+  },
+  "Картотека.csv": {
+    "de": "Kartoteka.csv",
+    "en": "Kartoteka.csv"
+  },
+  "Экспортировано: {count} {}. {}": {
+    "de": "Exportiert: {count} {}. {}",
+    "en": "Exported: {count} {}. {}"
+  },
+  "Не удалось сохранить CSV: {e}": {
+    "de": "CSV konnte nicht gespeichert werden: {e}",
+    "en": "Could not save CSV: {e}"
+  },
+  "Все записи": {
+    "de": "Alle Datensätze",
+    "en": "All records"
+  },
+  "Таблица «{}» · {} {}": {
+    "de": "Tabelle „{}“ · {} {}",
+    "en": "Table “{}” · {} {}"
+  },
+  "+ Новая запись": {
+    "de": "+ Neuer Datensatz",
+    "en": "+ New record"
+  },
+  "Обновить": {
+    "de": "Aktualisieren",
+    "en": "Refresh"
+  },
+  "Экспорт CSV": {
+    "de": "CSV exportieren",
+    "en": "Export CSV"
+  },
+  "Открыть карточку": {
+    "de": "Karte öffnen",
+    "en": "Open card"
+  },
+  "Поля таблицы": {
+    "de": "Tabellenfelder",
+    "en": "Table fields"
+  },
+  "Поиск в таблице…": {
+    "de": "In Tabelle suchen…",
+    "en": "Search table…"
+  },
+  "Очистить поиск": {
+    "de": "Suche leeren",
+    "en": "Clear search"
+  },
+  "Сортировка:": {
+    "de": "Sortierung:",
+    "en": "Sort by:"
+  },
+  "По убыванию": {
+    "de": "Absteigend",
+    "en": "Descending"
+  },
+  "Записей пока нет": {
+    "de": "Noch keine Datensätze",
+    "en": "No records yet"
+  },
+  "Создайте запись или измените фильтр таблицы.": {
+    "de": "Erstellen Sie einen Datensatz oder ändern Sie den Tabellenfilter.",
+    "en": "Create a record or change the table filter."
+  },
+  "Столбцы можно менять по ширине · остальные поля доступны прокруткой вправо": {
+    "de": "Spaltenbreite ist anpassbar · weitere Felder durch Scrollen nach rechts",
+    "en": "Resize columns · scroll right for more fields"
+  },
+  "Фото": {
+    "de": "Foto",
+    "en": "Photo"
+  },
+  "Файл": {
+    "de": "Datei",
+    "en": "File"
+  },
+  "Да": {
+    "de": "Ja",
+    "en": "Yes"
+  },
+  "Нет": {
+    "de": "Nein",
+    "en": "No"
+  },
+  "Показаны первые 2000 записей. Сортировка применяется только к показанным строкам; поиск работает по всей базе.": {
+    "de": "Die ersten 2000 Datensätze werden angezeigt. Die Sortierung gilt nur für diese Zeilen; die Suche erfasst die ganze Datenbank.",
+    "en": "Showing the first 2,000 records. Sorting applies to displayed rows; search covers the entire database."
+  },
+  "Поиск записей": {
+    "de": "Datensätze suchen",
+    "en": "Search records"
+  },
+  "Введите фамилию, имя, телефон или любое слово": {
+    "de": "Nachname, Vorname, Telefon oder ein beliebiges Wort eingeben",
+    "en": "Enter a last name, first name, phone number or any word"
+  },
+  "Например, Петрова": {
+    "de": "Zum Beispiel Müller",
+    "en": "For example, Smith"
+  },
+  "Найти": {
+    "de": "Suchen",
+    "en": "Search"
+  },
+  "Сбросить": {
+    "de": "Zurücksetzen",
+    "en": "Reset"
+  },
+  "Поиск по всем полям текущей таблицы": {
+    "de": "Suche in allen Feldern der aktuellen Tabelle",
+    "en": "Search all fields in the current table"
+  },
+  "Результаты поиска ({})": {
+    "de": "Suchergebnisse ({})",
+    "en": "Search results ({})"
+  },
+  "Ничего не найдено": {
+    "de": "Keine Treffer",
+    "en": "No results"
+  },
+  "Измените запрос или добавьте первую запись.": {
+    "de": "Ändern Sie die Suche oder fügen Sie den ersten Datensatz hinzu.",
+    "en": "Change the query or add your first record."
+  },
+  "Первые 500 результатов. Уточните запрос, чтобы сузить поиск.": {
+    "de": "Die ersten 500 Treffer. Grenzen Sie die Suche weiter ein.",
+    "en": "First 500 results. Refine your query to narrow the search."
+  },
+  "Сначала сохраните изменения в карточке, затем добавьте поле": {
+    "de": "Speichern Sie zuerst die Karte, bevor Sie ein Feld hinzufügen",
+    "en": "Save the card before adding a field"
+  },
+  "Не удалось сохранить защитную копию: {e}": {
+    "de": "Schutzkopie konnte nicht gespeichert werden: {e}",
+    "en": "Could not save safety copy: {e}"
+  },
+  "Структура таблицы сохранена": {
+    "de": "Tabellenstruktur gespeichert",
+    "en": "Table structure saved"
+  },
+  "Сначала сохраните карточку, затем меняйте порядок полей": {
+    "de": "Speichern Sie zuerst die Karte, bevor Sie Felder verschieben",
+    "en": "Save the card before reordering fields"
+  },
+  "Порядок полей изменён": {
+    "de": "Feldreihenfolge geändert",
+    "en": "Field order changed"
+  },
+  "Поле уже находится на краю списка": {
+    "de": "Das Feld befindet sich bereits am Rand der Liste",
+    "en": "The field is already at the end of the list"
+  },
+  "Конструктор таблиц": {
+    "de": "Tabellenentwurf",
+    "en": "Table designer"
+  },
+  "Настройте структуру картотеки и добавьте собственные поля": {
+    "de": "Struktur der Kartei anpassen und eigene Felder hinzufügen",
+    "en": "Configure the card index and add custom fields"
+  },
+  "Таблицы": {
+    "de": "Tabellen",
+    "en": "Tables"
+  },
+  "Создать таблицу": {
+    "de": "Tabelle erstellen",
+    "en": "Create table"
+  },
+  "Структура таблицы «{}»": {
+    "de": "Struktur der Tabelle „{}“",
+    "en": "Structure of table “{}”"
+  },
+  "Добавить поле": {
+    "de": "Feld hinzufügen",
+    "en": "Add field"
+  },
+  "Потяните границы заголовков, чтобы изменить ширину колонок": {
+    "de": "Ziehen Sie die Kopfzeilengrenzen, um Spalten anzupassen",
+    "en": "Drag header boundaries to resize columns"
+  },
+  "Имя поля": {
+    "de": "Feldname",
+    "en": "Field name"
+  },
+  "Тип данных": {
+    "de": "Datentyp",
+    "en": "Data type"
+  },
+  "Обязательное": {
+    "de": "Erforderlich",
+    "en": "Required"
+  },
+  "Действия": {
+    "de": "Aktionen",
+    "en": "Actions"
+  },
+  "ID ученика": {
+    "de": "Schüler-ID",
+    "en": "Student ID"
+  },
+  "Счётчик": {
+    "de": "Zähler",
+    "en": "Counter"
+  },
+  "Автоматически": {
+    "de": "Automatisch",
+    "en": "Automatic"
+  },
+  "Настроить": {
+    "de": "Anpassen",
+    "en": "Configure"
+  },
+  "Поднять поле": {
+    "de": "Feld nach oben",
+    "en": "Move field up"
+  },
+  "Опустить поле": {
+    "de": "Feld nach unten",
+    "en": "Move field down"
+  },
+  "Свойства поля": {
+    "de": "Feldeigenschaften",
+    "en": "Field properties"
+  },
+  "{} · ширина {} px · {}": {
+    "de": "{} · Breite {} px · {}",
+    "en": "{} · width {} px · {}"
+  },
+  "видно в форме": {
+    "de": "im Formular sichtbar",
+    "en": "visible in form"
+  },
+  "скрыто в форме": {
+    "de": "im Formular ausgeblendet",
+    "en": "hidden in form"
+  },
+  "Изменить свойства": {
+    "de": "Eigenschaften ändern",
+    "en": "Edit properties"
+  },
+  "Выберите поле в таблице, чтобы посмотреть его свойства.": {
+    "de": "Wählen Sie ein Feld aus, um seine Eigenschaften anzuzeigen.",
+    "en": "Select a field to view its properties."
+  },
+  "Конструктор форм": {
+    "de": "Formularentwurf",
+    "en": "Form designer"
+  },
+  "Выберите поля для карточки и настройте их свойства": {
+    "de": "Felder für die Karte auswählen und Eigenschaften anpassen",
+    "en": "Choose card fields and configure their properties"
+  },
+  "Доступные поля": {
+    "de": "Verfügbare Felder",
+    "en": "Available fields"
+  },
+  "Галочка — показывать поле": {
+    "de": "Häkchen — Feld anzeigen",
+    "en": "Checked — show field"
+  },
+  "Показывать поле «{}» в карточке и таблице": {
+    "de": "Feld „{}“ in Karte und Tabelle anzeigen",
+    "en": "Show field “{}” in the card and table"
+  },
+  "Предпросмотр формы": {
+    "de": "Formularvorschau",
+    "en": "Form preview"
+  },
+  "Поля показываются в сохранённом порядке": {
+    "de": "Felder erscheinen in der gespeicherten Reihenfolge",
+    "en": "Fields appear in the saved order"
+  },
+  "Видимость поля обновлена": {
+    "de": "Feldsichtbarkeit aktualisiert",
+    "en": "Field visibility updated"
+  },
+  "Настройки поля": {
+    "de": "Feldeinstellungen",
+    "en": "Field settings"
+  },
+  "Тип отображения": {
+    "de": "Darstellungstyp",
+    "en": "Display type"
+  },
+  "Ширина: {} px": {
+    "de": "Breite: {} px",
+    "en": "Width: {} px"
+  },
+  "Показывать в карточке": {
+    "de": "In Karte anzeigen",
+    "en": "Show in card"
+  },
+  "Скрыто в карточке": {
+    "de": "In Karte ausgeblendet",
+    "en": "Hidden in card"
+  },
+  "Обязательное поле": {
+    "de": "Pflichtfeld",
+    "en": "Required field"
+  },
+  "Необязательное поле": {
+    "de": "Optionales Feld",
+    "en": "Optional field"
+  },
+  "Выберите поле слева": {
+    "de": "Wählen Sie links ein Feld",
+    "en": "Select a field on the left"
+  },
+  "База, фотографии и документы — в одной копии": {
+    "de": "Datenbank, Fotos und Dokumente in einer Sicherung",
+    "en": "Database, photos and documents in one backup"
+  },
+  "Размер базы: {:.2} МБ": {
+    "de": "Datenbankgröße: {:.2} MB",
+    "en": "Database size: {:.2} MB"
+  },
+  "Создать резервную копию": {
+    "de": "Sicherung erstellen",
+    "en": "Create backup"
+  },
+  "Будут сохранены все таблицы и вложения.": {
+    "de": "Alle Tabellen und Anhänge werden gespeichert.",
+    "en": "All tables and attachments will be saved."
+  },
+  "Папка: backups рядом с базой": {
+    "de": "Ordner: backups neben der Datenbank",
+    "en": "Folder: backups next to the database"
+  },
+  "Создать копию": {
+    "de": "Sichern",
+    "en": "Back up"
+  },
+  "История резервных копий ({})": {
+    "de": "Sicherungsverlauf ({})",
+    "en": "Backup history ({})"
+  },
+  "Копий пока нет": {
+    "de": "Noch keine Sicherungen",
+    "en": "No backups yet"
+  },
+  "Создайте первую копию, чтобы сохранить вашу картотеку.": {
+    "de": "Erstellen Sie die erste Sicherung Ihrer Kartei.",
+    "en": "Create the first backup of your card index."
+  },
+  "Неполная защитная копия · восстановление недоступно": {
+    "de": "Unvollständige Schutzkopie · Wiederherstellung nicht verfügbar",
+    "en": "Incomplete safety copy · restore unavailable"
+  },
+  "База и прикреплённые файлы": {
+    "de": "Datenbank und angehängte Dateien",
+    "en": "Database and attached files"
+  },
+  "Восстановить": {
+    "de": "Wiederherstellen",
+    "en": "Restore"
+  },
+  "Открыть папку": {
+    "de": "Ordner öffnen",
+    "en": "Open folder"
+  },
+  "Внешний вид и хранение вашей картотеки": {
+    "de": "Darstellung und Speicherung Ihrer Kartei",
+    "en": "Appearance and storage of your card index"
+  },
+  "Общие": {
+    "de": "Allgemein",
+    "en": "General"
+  },
+  "Внешний вид": {
+    "de": "Darstellung",
+    "en": "Appearance"
+  },
+  "Папка хранения": {
+    "de": "Datenordner",
+    "en": "Data folder"
+  },
+  "О программе": {
+    "de": "Über das Programm",
+    "en": "About"
+  },
+  "Размер интерфейса": {
+    "de": "Oberflächengröße",
+    "en": "Interface size"
+  },
+  "Левое меню": {
+    "de": "Linkes Menü",
+    "en": "Left menu"
+  },
+  "Полное": {
+    "de": "Vollständig",
+    "en": "Full"
+  },
+  "Иконки": {
+    "de": "Symbole",
+    "en": "Icons"
+  },
+  "Скрыто": {
+    "de": "Ausgeblendet",
+    "en": "Hidden"
+  },
+  "Шрифт: Segoe UI · синий акцент #2E6BFF": {
+    "de": "Schrift: Segoe UI · blauer Akzent #2E6BFF",
+    "en": "Font: Segoe UI · blue accent #2E6BFF"
+  },
+  "Восстановить оформление по умолчанию": {
+    "de": "Standarddarstellung wiederherstellen",
+    "en": "Restore default appearance"
+  },
+  "Место хранения": {
+    "de": "Speicherort",
+    "en": "Storage location"
+  },
+  "Открыть папку данных": {
+    "de": "Datenordner öffnen",
+    "en": "Open data folder"
+  },
+  "База, фотографии и документы хранятся локально. Для переноса используйте резервную копию.": {
+    "de": "Datenbank, Fotos und Dokumente werden lokal gespeichert. Zum Übertragen eine Sicherung verwenden.",
+    "en": "Database, photos and documents are stored locally. Use a backup to transfer them."
+  },
+  "Программа работает без интернета. Данные сохраняются на компьютере без шифрования.": {
+    "de": "Das Programm funktioniert offline. Die Daten werden unverschlüsselt auf dem Computer gespeichert.",
+    "en": "The application works offline. Data is stored on the computer without encryption."
+  },
+  "Ctrl+S — сохранить · Ctrl+N — новая запись · Ctrl+F — поиск": {
+    "de": "Ctrl+S — speichern · Ctrl+N — neuer Datensatz · Ctrl+F — suchen",
+    "en": "Ctrl+S — save · Ctrl+N — new record · Ctrl+F — search"
+  },
+  "Всё для уверенной работы с картотекой": {
+    "de": "Alles für die Arbeit mit Ihrer Kartei",
+    "en": "Help for working with your card index"
+  },
+  "Начало работы": {
+    "de": "Erste Schritte",
+    "en": "Getting started"
+  },
+  "Создайте первую карточку, заполните данные и сохраните запись. Переключайтесь между карточками и общей таблицей через левое меню.": {
+    "de": "Erstellen Sie eine Karte, tragen Sie Daten ein und speichern Sie den Datensatz. Wechseln Sie über das linke Menü zwischen Karten und Tabelle.",
+    "en": "Create your first card, fill in the details and save the record. Use the left menu to switch between cards and the table."
+  },
+  "Добавление записей": {
+    "de": "Datensätze hinzufügen",
+    "en": "Adding records"
+  },
+  "Нажмите «Новая запись», заполните фамилию и имя, затем нажмите «Сохранить» в нижней панели. Обязательные поля отмечены звёздочкой.": {
+    "de": "Klicken Sie auf „Neuer Datensatz“, geben Sie Nachname und Vorname ein und wählen Sie unten „Speichern“. Pflichtfelder sind mit einem Stern markiert.",
+    "en": "Click “New record”, enter the last name and first name, then click “Save” in the bottom bar. Required fields are marked with an asterisk."
+  },
+  "Работа с таблицей": {
+    "de": "Mit der Tabelle arbeiten",
+    "en": "Working with the table"
+  },
+  "Нажмите на строку для выделения, затем «Открыть карточку». Двойной щелчок также открывает запись. Ширину столбцов можно менять мышью. CSV доступен через кнопку экспорта.": {
+    "de": "Klicken Sie auf eine Zeile und dann auf „Karte öffnen“. Ein Doppelklick öffnet sie direkt. Spaltenbreiten lassen sich ziehen. CSV erhalten Sie über die Export-Schaltfläche.",
+    "en": "Select a row and click “Open card”, or double-click the row. Drag column boundaries to resize them. Use the export button for CSV."
+  },
+  "Введите часть имени, телефона или адреса. Поиск просматривает все поля выбранной таблицы. Фильтр над таблицей работает по загруженным строкам.": {
+    "de": "Geben Sie einen Teil des Namens, der Telefonnummer oder Adresse ein. Die Suche erfasst alle Felder der ausgewählten Tabelle. Der Tabellenfilter prüft die geladenen Zeilen.",
+    "en": "Enter part of a name, phone number or address. Search covers every field in the selected table. The table filter checks the loaded rows."
+  },
+  "Фото и документы": {
+    "de": "Fotos und Dokumente",
+    "en": "Photos and documents"
+  },
+  "В карточке нажмите «Выбрать фото» или «Выбрать файл». Файл копируется в папку картотеки. Нажмите «Сохранить», чтобы закрепить вложение за записью.": {
+    "de": "Klicken Sie in der Karte auf „Foto auswählen“ oder „Datei auswählen“. Die Datei wird in den Karteiordner kopiert. Speichern Sie den Datensatz, um den Anhang zuzuordnen.",
+    "en": "In a card, click “Choose photo” or “Choose file”. The file is copied to the card index folder. Save the record to attach it."
+  },
+  "Собственные поля": {
+    "de": "Eigene Felder",
+    "en": "Custom fields"
+  },
+  "Откройте «Конструктор», выберите таблицу и нажмите «Добавить поле». Задайте название и тип. Видимость настраивается в разделе «Формы», порядок — стрелками в конструкторе.": {
+    "de": "Öffnen Sie den Tabellenentwurf, wählen Sie eine Tabelle und dann „Feld hinzufügen“. Legen Sie Name und Typ fest. Sichtbarkeit wird unter „Formulare“ eingestellt, Reihenfolge über die Pfeile im Tabellenentwurf.",
+    "en": "Open the designer, select a table and click “Add field”. Set its name and type. Configure visibility under “Forms” and order with the designer arrows."
+  },
+  "Нажмите «Создать копию». В копию войдут база и вложения. Восстановление заменяет текущие данные; программа сначала создаёт защитный снимок.": {
+    "de": "Klicken Sie auf „Sichern“. Datenbank und Anhänge werden kopiert. Eine Wiederherstellung ersetzt aktuelle Daten; vorher wird eine Schutzkopie erstellt.",
+    "en": "Click “Back up” to copy the database and attachments. Restoring replaces current data; a safety copy is created first."
+  },
+  "Настройки и клавиши": {
+    "de": "Einstellungen und Tastenkürzel",
+    "en": "Settings and shortcuts"
+  },
+  "Знак приложения или разделитель меню переключает полное меню, иконки и скрытый режим. Масштаб 80–150 % находится в настройках. Ctrl+S — сохранить, Ctrl+N — новая запись, Ctrl+F — поиск.": {
+    "de": "Programmsymbol oder Menütrenner schalten zwischen vollständigem Menü, Symbolen und ausgeblendetem Menü um. Der Maßstab 80–150% steht in den Einstellungen. Ctrl+S speichert, Ctrl+N erstellt einen Datensatz, Ctrl+F sucht.",
+    "en": "The application logo or menu divider switches between full, icon and hidden menus. Settings offers 80–150% scaling. Ctrl+S saves, Ctrl+N creates a record, Ctrl+F searches."
+  },
+  "Добавьте запись": {
+    "de": "Datensatz hinzufügen",
+    "en": "Add a record"
+  },
+  "Заполните основные данные ученика.": {
+    "de": "Tragen Sie die Grunddaten des Schülers ein.",
+    "en": "Fill in the student's basic details."
+  },
+  "Прикрепите фото": {
+    "de": "Foto anhängen",
+    "en": "Attach a photo"
+  },
+  "Фотография поможет быстрее найти человека.": {
+    "de": "Ein Foto hilft, die Person schneller zu finden.",
+    "en": "A photo helps you find the person faster."
+  },
+  "Посмотрите таблицу": {
+    "de": "Tabelle ansehen",
+    "en": "View the table"
+  },
+  "Все записи будут доступны в одном списке.": {
+    "de": "Alle Datensätze erscheinen in einer Liste.",
+    "en": "All records will be available in one list."
+  },
+  "Создайте копию": {
+    "de": "Sicherung erstellen",
+    "en": "Create a backup"
+  },
+  "Сохраните базу вместе с вложениями.": {
+    "de": "Speichern Sie Datenbank und Anhänge zusammen.",
+    "en": "Save the database together with its attachments."
+  },
+  "Несохранённые изменения": {
+    "de": "Nicht gespeicherte Änderungen",
+    "en": "Unsaved changes"
+  },
+  "В карточке есть изменения, которые ещё не сохранены.": {
+    "de": "Die Karte enthält noch nicht gespeicherte Änderungen.",
+    "en": "The card contains changes that have not been saved."
+  },
+  "Что сделать перед переходом?": {
+    "de": "Was soll vor dem Wechsel geschehen?",
+    "en": "What should happen before leaving?"
+  },
+  "Сохранить и продолжить": {
+    "de": "Speichern und fortfahren",
+    "en": "Save and continue"
+  },
+  "Не сохранять": {
+    "de": "Nicht speichern",
+    "en": "Don't save"
+  },
+  "Отмена": {
+    "de": "Abbrechen",
+    "en": "Cancel"
+  },
+  "Удалить запись?": {
+    "de": "Datensatz löschen?",
+    "en": "Delete record?"
+  },
+  "Запись будет удалена из базы. Файлы останутся в папке программы.": {
+    "de": "Der Datensatz wird gelöscht. Dateien bleiben im Datenordner.",
+    "en": "The record will be deleted. Files remain in the data folder."
+  },
+  "Рекомендуем сначала создать резервную копию.": {
+    "de": "Erstellen Sie vorher eine Sicherung.",
+    "en": "We recommend creating a backup first."
+  },
+  "Удалить запись": {
+    "de": "Datensatz löschen",
+    "en": "Delete record"
+  },
+  "Запись удалена": {
+    "de": "Datensatz gelöscht",
+    "en": "Record deleted"
+  },
+  "Новая таблица": {
+    "de": "Neue Tabelle",
+    "en": "New table"
+  },
+  "Как назвать новую таблицу?": {
+    "de": "Wie soll die neue Tabelle heißen?",
+    "en": "What should the new table be called?"
+  },
+  "Например, учителя": {
+    "de": "Zum Beispiel Lehrkräfte",
+    "en": "For example, teachers"
+  },
+  "Таблица создана. Теперь добавьте поля.": {
+    "de": "Tabelle erstellt. Fügen Sie jetzt Felder hinzu.",
+    "en": "Table created. Add fields next."
+  },
+  "Настроить поле": {
+    "de": "Feld anpassen",
+    "en": "Configure field"
+  },
+  "Название поля": {
+    "de": "Feldname",
+    "en": "Field name"
+  },
+  "Например, любимый предмет": {
+    "de": "Zum Beispiel Lieblingsfach",
+    "en": "For example, favourite subject"
+  },
+  "Что будем здесь хранить?": {
+    "de": "Welche Daten sollen hier gespeichert werden?",
+    "en": "What will be stored here?"
+  },
+  "Обязательно заполнять": {
+    "de": "Eingabe erforderlich",
+    "en": "Required"
+  },
+  "Показывать в карточке и таблице": {
+    "de": "In Karte und Tabelle anzeigen",
+    "en": "Show in card and table"
+  },
+  "Значение по умолчанию (необязательно)": {
+    "de": "Standardwert (optional)",
+    "en": "Default value (optional)"
+  },
+  "Ширина столбца таблицы": {
+    "de": "Spaltenbreite",
+    "en": "Table column width"
+  },
+  "Сохранить поле": {
+    "de": "Feld speichern",
+    "en": "Save field"
+  },
+  "Удалить поле": {
+    "de": "Feld löschen",
+    "en": "Delete field"
+  },
+  "Удалить поле и его данные?": {
+    "de": "Feld und seine Daten löschen?",
+    "en": "Delete field and its data?"
+  },
+  "Поле «{}» будет удалено из всех записей. Это нельзя отменить без резервной копии.": {
+    "de": "Feld „{}“ wird aus allen Datensätzen gelöscht. Ohne Sicherung ist das nicht rückgängig zu machen.",
+    "en": "Field “{}” will be deleted from all records. This cannot be undone without a backup."
+  },
+  "Удалить навсегда": {
+    "de": "Endgültig löschen",
+    "en": "Delete permanently"
+  },
+  "Поле удалено": {
+    "de": "Feld gelöscht",
+    "en": "Field deleted"
+  },
+  "Восстановить резервную копию?": {
+    "de": "Sicherung wiederherstellen?",
+    "en": "Restore backup?"
+  },
+  "Текущая база будет заменена данными из выбранной копии.": {
+    "de": "Die aktuelle Datenbank wird durch die ausgewählte Sicherung ersetzt.",
+    "en": "The current database will be replaced by the selected backup."
+  },
+  "Перед заменой программа автоматически сохранит защитную копию.": {
+    "de": "Vorher wird automatisch eine Schutzkopie gespeichert.",
+    "en": "A safety copy will be saved automatically first."
+  },
+  "Неверный размер снимка": {
+    "de": "Ungültige Bildgröße",
+    "en": "Invalid capture size"
+  },
+  "Не удалось сохранить снимок проверки: {error}": {
+    "de": "Prüfbild konnte nicht gespeichert werden: {error}",
+    "en": "Could not save review capture: {error}"
+  },
+  "ГГГГ-ММ-ДД": {
+    "de": "JJJJ-MM-TT",
+    "en": "YYYY-MM-DD"
+  },
+  "Да / Нет": {
+    "de": "Ja / Nein",
+    "en": "Yes / No"
+  },
+  "Документ": {
+    "de": "Dokument",
+    "en": "Document"
+  },
+  "Введите значение": {
+    "de": "Wert eingeben",
+    "en": "Enter a value"
+  },
+  "Выбрать дату": {
+    "de": "Datum auswählen",
+    "en": "Choose date"
+  },
+  "Целое число": {
+    "de": "Ganzzahl",
+    "en": "Integer"
+  },
+  "Число": {
+    "de": "Zahl",
+    "en": "Number"
+  },
+  "ЧЧ:ММ": {
+    "de": "HH:MM",
+    "en": "HH:MM"
+  },
+  "ГГГГ-ММ-ДД ЧЧ:ММ": {
+    "de": "JJJJ-MM-TT HH:MM",
+    "en": "YYYY-MM-DD HH:MM"
+  },
+  "Адрес проживания": {
+    "de": "Wohnanschrift",
+    "en": "Home address"
+  },
+  "Увлечения, хобби": {
+    "de": "Interessen, Hobbys",
+    "en": "Interests, hobbies"
+  },
+  "Ссылка на сайт": {
+    "de": "Website-Link",
+    "en": "Website link"
+  },
+  "Дата рождения": {
+    "de": "Geburtsdatum",
+    "en": "Date of birth"
+  },
+  "запись": {
+    "de": "Datensatz",
+    "en": "record"
+  },
+  "записи": {
+    "de": "Datensätze",
+    "en": "records"
+  },
+  "записей": {
+    "de": "Datensätze",
+    "en": "records"
+  },
+  "поле": {
+    "de": "Feld",
+    "en": "field"
+  },
+  "поля": {
+    "de": "Felder",
+    "en": "fields"
+  },
+  "полей": {
+    "de": "Felder",
+    "en": "fields"
+  },
+  "резервная копия": {
+    "de": "Sicherung",
+    "en": "backup"
+  },
+  "резервные копии": {
+    "de": "Sicherungen",
+    "en": "backups"
+  },
+  "резервных копий": {
+    "de": "Sicherungen",
+    "en": "backups"
+  },
+  "Короткий текст": {
+    "de": "Kurzer Text",
+    "en": "Short text"
+  },
+  "Длинный текст": {
+    "de": "Langer Text",
+    "en": "Long text"
+  },
+  "Десятичное число": {
+    "de": "Dezimalzahl",
+    "en": "Decimal number"
+  },
+  "Дата": {
+    "de": "Datum",
+    "en": "Date"
+  },
+  "Время": {
+    "de": "Uhrzeit",
+    "en": "Time"
+  },
+  "Дата и время": {
+    "de": "Datum und Uhrzeit",
+    "en": "Date and time"
+  },
+  "Фотография": {
+    "de": "Foto",
+    "en": "Photo"
+  },
+  "не более 255 символов": {
+    "de": "höchstens 255 Zeichen",
+    "en": "at most 255 characters"
+  },
+  "укажите целое число": {
+    "de": "Ganzzahl eingeben",
+    "en": "enter an integer"
+  },
+  "укажите число": {
+    "de": "Zahl eingeben",
+    "en": "enter a number"
+  },
+  "дата: ГГГГ-ММ-ДД": {
+    "de": "Datum: JJJJ-MM-TT",
+    "en": "date: YYYY-MM-DD"
+  },
+  "время: ЧЧ:ММ": {
+    "de": "Uhrzeit: HH:MM",
+    "en": "time: HH:MM"
+  },
+  "дата и время: ГГГГ-ММ-ДД ЧЧ:ММ": {
+    "de": "Datum und Uhrzeit: JJJJ-MM-TT HH:MM",
+    "en": "date and time: YYYY-MM-DD HH:MM"
+  },
+  "допустимо только Да или Нет": {
+    "de": "nur Ja oder Nein erlaubt",
+    "en": "only Yes or No is allowed"
+  },
+  "укажите полный адрес сайта, например https://example.com": {
+    "de": "vollständige Website-Adresse eingeben, z.B. https://example.com",
+    "en": "enter a full website address, for example https://example.com"
+  },
+  "недопустимый путь к документу": {
+    "de": "ungültiger Dokumentpfad",
+    "en": "invalid document path"
+  },
+  "недопустимый путь к фотографии": {
+    "de": "ungültiger Fotopfad",
+    "en": "invalid photo path"
+  },
+  "Заметки": {
+    "de": "Notizen",
+    "en": "Notes"
+  },
+  "Клички": {
+    "de": "Spitznamen",
+    "en": "Nicknames"
+  },
+  "Название таблицы: от 1 до 80 символов": {
+    "de": "Tabellenname:1 bis 80 Zeichen",
+    "en": "Table name:1 to 80 characters"
+  },
+  "Таблица с таким названием уже существует": {
+    "de": "Eine Tabelle mit diesem Namen existiert bereits",
+    "en": "A table with this name already exists"
+  },
+  "Название поля: от 1 до 80 символов": {
+    "de": "Feldname:1 bis 80 Zeichen",
+    "en": "Field name:1 to 80 characters"
+  },
+  "Поле с таким названием уже существует": {
+    "de": "Ein Feld mit diesem Namen existiert bereits",
+    "en": "A field with this name already exists"
+  },
+  "Значение по умолчанию: {e}": {
+    "de": "Standardwert: {e}",
+    "en": "Default value: {e}"
+  },
+  "Нельзя добавить обязательное поле без значения по умолчанию в непустую таблицу": {
+    "de": "In einer gefüllten Tabelle braucht ein neues Pflichtfeld einen Standardwert",
+    "en": "Cannot add a required field without a default value to a non-empty table"
+  },
+  "Поле «{}»: уже есть пустые значения": {
+    "de": "Feld „{}“ enthält bereits leere Werte",
+    "en": "Field “{}” already contains empty values"
+  },
+  "Несовместимое значение в «{}»: {e}": {
+    "de": "Unverträglicher Wert in „{}“: {e}",
+    "en": "Incompatible value in “{}”: {e}"
+  },
+  "В существующих записях есть пустые значения: поле нельзя сделать обязательным": {
+    "de": "Vorhandene Datensätze enthalten leere Werte: das Feld kann kein Pflichtfeld werden",
+    "en": "Existing records contain empty values: the field cannot be made required"
+  },
+  "Направление должно быть -1 или 1": {
+    "de": "Richtung muss -1 oder 1 sein",
+    "en": "Direction must be -1 or 1"
+  },
+  "Поле не найдено в выбранной таблице": {
+    "de": "Feld in der ausgewählten Tabelle nicht gefunden",
+    "en": "Field not found in the selected table"
+  },
+  "Запись не найдена": {
+    "de": "Datensatz nicht gefunden",
+    "en": "Record not found"
+  },
+  "Заполните поле «{}»": {
+    "de": "Feld „{}“ ausfüllen",
+    "en": "Fill in field “{}”"
+  },
+  "Поле «{}»: {e}": {
+    "de": "Feld „{}“: {e}",
+    "en": "Field “{}”: {e}"
+  },
+  "Запись была удалена или перемещена": {
+    "de": "Datensatz wurde gelöscht oder verschoben",
+    "en": "Record was deleted or moved"
+  },
+  "Таблица не найдена": {
+    "de": "Tabelle nicht gefunden",
+    "en": "Table not found"
+  },
+  "Файл резервной копии уже существует": {
+    "de": "Sicherungsdatei existiert bereits",
+    "en": "Backup file already exists"
+  },
+  "Проверка SQLite: {check}": {
+    "de": "SQLite-Prüfung: {check}",
+    "en": "SQLite check: {check}"
+  },
+  "Это не резервная копия нашей картотеки": {
+    "de": "Dies ist keine Kartoteka-Sicherung",
+    "en": "This is not a Kartoteka backup"
+  },
+  "Выбранный файл не существует": {
+    "de": "Die ausgewählte Datei existiert nicht",
+    "en": "The selected file does not exist"
+  },
+  "Максимальный размер файла — 250 МБ": {
+    "de": "Maximale Dateigröße:250 MB",
+    "en": "Maximum file size:250 MB"
+  },
+  "Для фото выберите JPG, PNG, BMP или WEBP": {
+    "de": "Wählen Sie JPG, PNG, BMP oder WEBP als Foto",
+    "en": "Choose JPG, PNG, BMP or WEBP for a photo"
+  },
+  "Фото не должно превышать 25 МБ": {
+    "de": "Fotos dürfen 25 MB nicht überschreiten",
+    "en": "Photos must not exceed 25 MB"
+  },
+  "Не удалось прочитать размеры фотографии": {
+    "de": "Bildabmessungen konnten nicht gelesen werden",
+    "en": "Could not read photo dimensions"
+  },
+  "Слишком большое изображение: максимум 40 мегапикселей": {
+    "de": "Bild zu groß: höchstens 40 Megapixel",
+    "en": "Image too large: maximum 40 megapixels"
+  },
+  "Не удалось прочитать изображение": {
+    "de": "Bild konnte nicht gelesen werden",
+    "en": "Could not read image"
+  },
+  "Некорректная папка": {
+    "de": "Ungültiger Ordner",
+    "en": "Invalid folder"
+  },
+  "Некорректная ссылка на локальный файл": {
+    "de": "Ungültiger Verweis auf lokale Datei",
+    "en": "Invalid local file reference"
+  },
+  "Файл не найден. Возможно, он удалён.": {
+    "de": "Datei nicht gefunden. Möglicherweise wurde sie gelöscht.",
+    "en": "File not found. It may have been deleted."
+  },
+  "Файл находится вне папки программы": {
+    "de": "Datei liegt außerhalb des Datenordners",
+    "en": "File is outside the data folder"
+  },
+  "Символические ссылки в вложениях не разрешены": {
+    "de": "Symbolische Links sind in Anhängen nicht erlaubt",
+    "en": "Symbolic links are not allowed in attachments"
+  },
+  "В копии указан недопустимый путь: {relative}": {
+    "de": "Ungültiger Pfad in der Sicherung: {relative}",
+    "en": "Invalid path in backup: {relative}"
+  },
+  "В копии отсутствует файл: {relative}": {
+    "de": "Datei fehlt in der Sicherung: {relative}",
+    "en": "File missing from backup: {relative}"
+  },
+  "Файл копии находится вне папки данных: {relative}": {
+    "de": "Sicherungsdatei liegt außerhalb des Datenordners: {relative}",
+    "en": "Backup file is outside the data folder: {relative}"
+  },
+  "ВНИМАНИЕ: защитная копия сделана перед восстановлением, но она НЕПОЛНАЯ.\nПроблема: {e}\nЭту копию нельзя считать проверенной.\n": {
+    "de": "WARNUNG: Die Schutzkopie vor der Wiederherstellung ist UNVOLLSTÄNDIG.\nProblem: {e}\nDiese Kopie ist nicht als geprüft anzusehen.\n",
+    "en": "WARNING: The safety copy made before restoring is INCOMPLETE.\nProblem: {e}\nThis copy must not be considered verified.\n"
+  },
+  "Копия": {
+    "de": "Sicherung",
+    "en": "Backup"
+  },
+  "Копия должна быть из списка приложения": {
+    "de": "Sicherung muss aus der Programmliste stammen",
+    "en": "Backup must be selected from the application list"
+  },
+  "Перед_восстановлением": {
+    "de": "Vor_Wiederherstellung",
+    "en": "Before_restore"
+  },
+  "Восстановление отменено: {e}": {
+    "de": "Wiederherstellung abgebrochen: {e}",
+    "en": "Restore cancelled: {e}"
+  },
+  "Картотека с этой базой уже открыта. Переключитесь в существующее окно.": {
+    "de": "Kartoteka ist mit dieser Datenbank bereits geöffnet. Wechseln Sie zum vorhandenen Fenster.",
+    "en": "Kartoteka is already open with this database. Switch to the existing window."
+  },
+  "Язык интерфейса": {
+    "de": "Sprache",
+    "en": "Interface language"
+  },
+  "Версия 0.5.0 · Quiet Premium Workspace": {
+    "de": "Version 0.5.0 · Quiet Premium Workspace",
+    "en": "Version 0.5.0 · Quiet Premium Workspace"
+  }
+}

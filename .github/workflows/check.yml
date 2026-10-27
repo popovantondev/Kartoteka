@@ -1,0 +1,29 @@
+name: Source and public documentation
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt
+      - name: Native development libraries
+        run: sudo apt-get update && sudo apt-get install -y libxkbcommon-dev libwayland-dev libdbus-1-dev libfontconfig1-dev libgl1-mesa-dev
+      - name: Documentation and links
+        run: node scripts/check-docs.cjs
+      - name: Formatting
+        run: cargo fmt --all -- --check
+      - name: Check
+        run: cargo check --locked
+      - name: Tests
+        run: cargo test --locked
