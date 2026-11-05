@@ -1,72 +1,76 @@
-# Classmates — Kartoteka
+# Kartoteka
 
-[RU](README.ru.md) · [DE](README.de.md) · [EN](README.md)
+[RU](README.ru.md) · [DE](README.md) · [EN](README.en.md)
 
-**Your local card index for Windows · 0.5.0 · Windows 11 x64**
+**Ihre lokale Kartei für Windows · 0.5.0 · Windows 11 x64**
 
-Keep classmates and other lists on your own computer. Cards, tables, custom fields, photos, documents, search and backups in one application.
+Verwalten Sie Kontakte, Sammlungen und andere Listen auf Ihrem eigenen Computer. Karten, Tabellen, eigene Felder, Fotos, Dokumente, Suche und Sicherungen in einer Anwendung.
 
-[Download for Windows](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe) · [Portable ZIP](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Windows-x64.zip) · [User guide](https://popovantondev.github.io/Kartoteka/Guide-en.html) · [All applications](https://popovantondev.github.io/popovantondev/index.html)
+[Für Windows herunterladen](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe) · [Portable ZIP](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Windows-x64.zip) · [Anleitung](https://popovantondev.github.io/Kartoteka/Guide-de.html) · [Alle Programme](https://popovantondev.github.io/popovantondev/index.html)
 
-![Classmates — Kartoteka](docs/assets/app-en.png)
+![Kartoteka](docs/assets/app-de.png)
 
-Actual 0.5.0 interface. Demonstration database without personal data.
+Echte Oberfläche 0.5.0. Beispieldaten ohne persönliche Daten.
 
-## Features
+## Funktionen
 
-- Record cards and a table with resizable columns.
-- Custom tables and 11 field types: text, numbers, date, time, date/time, checkbox, URL, photo and document.
-- Photo previews, managed local document copies and website links.
-- Search across the selected table, loaded-row filtering and CSV export.
-- Back up the database and attachments; a safety copy is made before restoring.
-- Light theme, 80–150% scaling, collapsible menu and RU/DE/EN interface.
+- Datensatzkarten und Gesamttabelle mit anpassbaren Spaltenbreiten.
+- Eigene Tabellen und 11 Feldtypen: kurzer und langer Text, Ganz- und Dezimalzahlen, Datum, Uhrzeit, Datum/Uhrzeit, Kontrollkästchen, URL, Foto und Dokument.
+- Fotovorschau, verwaltete lokale Dokumentkopien und Website-Links.
+- Suche in der ausgewählten Tabelle, Filter für geladene Zeilen und CSV-Export.
+- Sicherung von Datenbank und Anhängen; Schutzkopie vor einer Wiederherstellung.
+- Helle Oberfläche, 80–150% Skalierung, einklappbares Menü und RU/DE/EN.
 
-## Install and start
+## Installation und Start
 
-Run Kartoteka-0.5.0-Setup.exe and keep the suggested user folder. Administrator rights and Rust are not required. Save your work and close the old application before updating. For a portable launch, extract the entire ZIP; keep the EXE and three DLL files together.
+Starten Sie Kartoteka-0.5.0-Setup.exe und behalten Sie den vorgeschlagenen Benutzerordner. Administratorrechte und Rust sind nicht erforderlich. Speichern und schließen Sie die alte Anwendung vor einem Update. Ohne Installation: das gesamte portable ZIP entpacken; EXE und drei DLL-Dateien müssen zusammenbleiben.
 
-## Choose a language
+## Sprache wählen
 
-Open Settings → General or Appearance → Interface language and choose Русский, Deutsch or English. The choice survives restarts. Stored names and values are not rewritten; standard labels appear in the selected language. System file dialogs use the Windows language.
+Öffnen Sie Einstellungen → Allgemein oder Darstellung → Sprache. Wählen Sie Русский, Deutsch oder English. Die Auswahl bleibt nach dem Neustart erhalten. Gespeicherte Namen und Werte werden nicht umgeschrieben; Standardbeschriftungen erscheinen in der gewählten Sprache. Systemische Dateidialoge verwenden die Windows-Sprache.
 
-## Your first record
+## Erster Datensatz
 
-Click “New record”, fill in the required last and first names, attach a photo or document and click “Save”. The bottom buttons navigate between cards. Double-click a table row to open its card. Leaving an edited card prompts you to save it.
+Wählen Sie „Neuer Datensatz“, füllen Sie die Pflichtfelder Nachname und Vorname aus, fügen Sie Foto oder Dokument hinzu und speichern Sie. Die unteren Schaltflächen wechseln zwischen Karten. Ein Doppelklick in der Tabelle öffnet die Karte. Vor dem Verlassen einer geänderten Karte wird nach dem Speichern gefragt.
 
-## Tables and fields
+## Tabellen und Felder
 
-Create a table in Designer and add fields with a name, type, required flag and default value. Use arrows to reorder fields and drag header boundaries to resize columns. Forms controls visibility and shows a preview. Deleting a field requires confirmation and a safety copy.
+Erstellen Sie im Tabellenentwurf eine Tabelle und fügen Sie Felder mit Name, Typ, Pflichtstatus und Standardwert hinzu. Pfeile ändern die Reihenfolge; Ziehen der Kopfzeilengrenzen ändert Spaltenbreiten. Unter Formulare werden Sichtbarkeit und Vorschau eingestellt. Das Löschen eines Feldes erfordert Bestätigung und Schutzkopie.
 
-## Photos and documents
+## Fotos und Dokumente
 
-The selected file is copied to the managed attachments folder. Save the record to attach it. Photos: JPG/JPEG, PNG, BMP, WEBP, up to 25 MB and 40 megapixels. Other documents: up to 250 MB. Documents open in the system application; HTTP/HTTPS links open in your browser.
+Die ausgewählte Datei wird in den verwalteten Anhangordner kopiert. Speichern Sie den Datensatz, um sie zuzuordnen. Fotos: JPG/JPEG, PNG, BMP, WEBP, höchstens 25 MB und 40 Megapixel. Andere Dokumente: höchstens 250 MB. Dokumente öffnen sich in der Systemanwendung; HTTP/HTTPS-Links im Browser.
 
-## Search and CSV
+## Programme durchsuchen
 
-Search checks every field in the selected table. The table filter only checks loaded rows. CSV exports the selected table and escapes text against spreadsheet formulas. Dates remain YYYY-MM-DD and times HH:MM.
+Suchen
 
-## Data safety and moving computers
+## Datensicherung und Umzug
 
-Data folder: %LOCALAPPDATA%\Popovantondev\Kartoteka. It contains program_data.db, assets, backups and preferences.json. Data is not encrypted. To move computers, create a backup and copy the entire data folder while the application is closed. Restore uses backups from the application list and creates a safety copy first. Uninstalling keeps your data.
+Datenordner: %LOCALAPPDATA%\Popovantondev\Kartoteka. Er enthält program_data.db, assets, backups und preferences.json. Daten sind unverschlüsselt. Zum Umzug zuerst sichern und bei geschlossener Anwendung den gesamten Datenordner auf den anderen Computer kopieren. Wiederherstellung verwendet Sicherungen aus der Programmliste und erstellt vorher eine Schutzkopie. Die Deinstallation erhält Ihre Daten.
 
-## Keyboard shortcuts
+## Tastenkürzel
 
-Ctrl+S saves; Ctrl+N creates a record; Ctrl+F opens search. Drag or double-click the menu divider to change its mode. The menu collapses automatically in narrow windows.
+Ctrl+S speichert; Ctrl+N erstellt einen Datensatz; Ctrl+F öffnet die Suche. Der Menütrenner unterstützt Ziehen und Doppelklick. Bei schmalen Fenstern klappt das Menü automatisch ein.
 
-## Requirements and limitations
+## Voraussetzungen und Grenzen
 
-Tested on Windows 11 x 64. The EXE is unsigned. The table shows up to 2,000 rows and search up to 500 results. Free-form layout editing and Microsoft Access import are not implemented. Windows DPI 125/150% and two monitors were not separately tested; font smoothing depends on the egui renderer. No telemetry; core features work offline.
+Auf Windows 11 x64 geprüft. Die EXE ist nicht signiert. Die Tabelle zeigt bis zu 2000 Zeilen, die Suche bis zu 500 Treffer. Freie Formularanordnung und Microsoft-Access-Import sind nicht implementiert. Windows-DPI 125/150% und zwei Monitore sind nicht separat geprüft; die Schriftglättung hängt vom egui-Renderer ab. Keine Telemetrie; Kernfunktionen arbeiten offline.
 
-## Build from source
+## Aus Quellcode bauen
 
-Requires Rust stable-x 86_64-pc-windows-gnullvm, rustfmt and LLVM-MinGW. scripts/build-noadmin.ps 1 finds LLVM-MinGW under %LOCALAPPDATA%\Popovantondev\KartotekaTools, runs fmt/check/test/release and produces dist with the EXE and DLLs. Setup: scripts/build-setup.ps 1 -NsisPath <path to makensis.exe>, using NSIS 3.11. Cargo.lock pins dependencies. Dependency licenses are unchanged; no separate project-code license has been assigned yet.
+Erforderlich: Rust stable-x86_64-pc-windows-gnullvm, rustfmt und LLVM-MinGW. scripts/build-noadmin.ps1 sucht LLVM-MinGW unter %LOCALAPPDATA%\Popovantondev\KartotekaTools, führt fmt/check/test/release aus und erstellt dist mit EXE und DLLs. Setup: scripts/build-setup.ps1 -NsisPath <Pfad zu makensis.exe>, NSIS 3.11. Cargo.lock fixiert Abhängigkeiten. Deren Lizenzen bleiben unverändert; Rechte am Projektcode: siehe RIGHTS.de.md.
 
-## Changes in 0.5.0
+## Änderungen in 0.5.0
 
-Added persistent RU/DE/EN selection; translated views, help, dialogs and validation messages. Localized calendar and a three-language installer. Database schema and attachment format remain compatible with 0.4.2.
+RU/DE/EN mit gespeicherter Sprachwahl; übersetzte Ansichten, Hilfe, Dialoge und Validierungsmeldungen. Lokalisierter Kalender und dreisprachiges Setup. Datenbankschema und Anhangformat bleiben mit 0.4.2 kompatibel.
 
-## Verification
+## Prüfungen
 
-Build, language, data-preservation and installer checks are documented in RELEASE-CHECKS.md. Release file hashes are in SHA 256 SUMS.txt. Documentation checks do not replace running the app on your hardware.
+Build-, Sprach-, Datenerhaltungs- und Setup-Prüfungen stehen in RELEASE-CHECKS.md. Prüfsummen der Release-Dateien: SHA256SUMS.txt. Dokumentationsprüfungen ersetzen keinen Test auf Ihrer Hardware.
 
-[Report an issue](https://github.com/popovantondev/Kartoteka/issues/new) · [Source code](https://github.com/popovantondev/Kartoteka)
+## Rechte und Nutzung
+
+Der Quellcode ist zur Ansicht öffentlich; es handelt sich nicht um eine Open-Source-Lizenz. Ein unverändertes Release darf für den persönlichen Gebrauch heruntergeladen und ausgeführt werden. Einzelheiten: RIGHTS.de.md; Rechte an Drittkomponenten: third-party/README.md.
+
+[Fehler melden](https://github.com/popovantondev/Kartoteka/issues/new) · [Quellcode](https://github.com/popovantondev/Kartoteka)

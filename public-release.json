@@ -14,16 +14,16 @@
     "de",
     "en"
   ],
-  "runtime_target": "Windows11 x64; Rust/egui, SQLite; per-user installation",
+  "runtime_target": "Windows 11 x64; Rust/egui, SQLite; per-user installation",
   "description": {
-    "ru": "Храните карточки одноклассников и другие списки на своём компьютере. Таблицы, собственные поля, фотографии, документы, поиск и резервные копии — в одном приложении.",
-    "de": "Verwalten Sie Klassenkameraden und andere Listen auf Ihrem eigenen Computer. Karten, Tabellen, eigene Felder, Fotos, Dokumente, Suche und Sicherungen in einer Anwendung.",
-    "en": "Keep classmates and other lists on your own computer. Cards, tables, custom fields, photos, documents, search and backups in one application."
+    "ru": "Храните карточки людей, коллекции и другие списки на своём компьютере. Таблицы, собственные поля, фотографии, документы, поиск и резервные копии — в одном приложении.",
+    "de": "Verwalten Sie Kontakte, Sammlungen und andere Listen auf Ihrem eigenen Computer. Karten, Tabellen, eigene Felder, Fotos, Dokumente, Suche und Sicherungen in einer Anwendung.",
+    "en": "Keep contacts, collections and other lists on your own computer. Cards, tables, custom fields, photos, documents, search and backups in one application."
   },
   "requirements": {
-    "ru": "Проверено на Windows 11 x 64. EXE не подписан. Таблица показывает до 2000 строк, поиск — до 500 результатов. Свободное перетягивание полей формы и импорт Microsoft Access не реализованы. Системный DPI 125/150% и два монитора отдельно не проверены; качество сглаживания зависит от рендера egui. Программа не отправляет телеметрию; основные функции работают офлайн.",
-    "de": "Auf Windows 11 x 64 geprüft. Die EXE ist nicht signiert. Die Tabelle zeigt bis zu 2000 Zeilen, die Suche bis zu 500 Treffer. Freie Formularanordnung und Microsoft-Access-Import sind nicht implementiert. Windows-DPI 125/150% und zwei Monitore sind nicht separat geprüft; die Schriftglättung hängt vom egui-Renderer ab. Keine Telemetrie; Kernfunktionen arbeiten offline.",
-    "en": "Tested on Windows 11 x 64. The EXE is unsigned. The table shows up to 2,000 rows and search up to 500 results. Free-form layout editing and Microsoft Access import are not implemented. Windows DPI 125/150% and two monitors were not separately tested; font smoothing depends on the egui renderer. No telemetry; core features work offline."
+    "ru": "Проверено на Windows 11 x64. EXE не подписан. Таблица показывает до 2000 строк, поиск — до 500 результатов. Свободное перетягивание полей формы и импорт Microsoft Access не реализованы. Системный DPI 125/150% и два монитора отдельно не проверены; качество сглаживания зависит от рендера egui. Программа не отправляет телеметрию; основные функции работают офлайн.",
+    "de": "Auf Windows 11 x64 geprüft. Die EXE ist nicht signiert. Die Tabelle zeigt bis zu 2000 Zeilen, die Suche bis zu 500 Treffer. Freie Formularanordnung und Microsoft-Access-Import sind nicht implementiert. Windows-DPI 125/150% und zwei Monitore sind nicht separat geprüft; die Schriftglättung hängt vom egui-Renderer ab. Keine Telemetrie; Kernfunktionen arbeiten offline.",
+    "en": "Tested on Windows 11 x64. The EXE is unsigned. The table shows up to 2,000 rows and search up to 500 results. Free-form layout editing and Microsoft Access import are not implemented. Windows DPI 125/150% and two monitors were not separately tested; font smoothing depends on the egui renderer. No telemetry; core features work offline."
   },
   "start": {
     "ru": "Запустите Kartoteka-0.5.0-Setup.exe и оставьте предложенную папку текущего пользователя. Права администратора и Rust не требуются. Перед обновлением сохраните изменения и закройте старое окно. Для запуска без установки распакуйте весь переносной ZIP: EXE и три DLL должны находиться рядом.",
@@ -35,10 +35,10 @@
       "README.ru.md"
     ],
     "de": [
-      "README.de.md"
+      "README.md"
     ],
     "en": [
-      "README.md"
+      "README.en.md"
     ]
   },
   "guides": {
@@ -54,11 +54,11 @@
       "guide": "https://popovantondev.github.io/Kartoteka/Guide-ru.html"
     },
     "de": {
-      "website": "https://popovantondev.github.io/Kartoteka/index-de.html",
+      "website": "https://popovantondev.github.io/Kartoteka/index.html",
       "guide": "https://popovantondev.github.io/Kartoteka/Guide-de.html"
     },
     "en": {
-      "website": "https://popovantondev.github.io/Kartoteka/index.html",
+      "website": "https://popovantondev.github.io/Kartoteka/index-en.html",
       "guide": "https://popovantondev.github.io/Kartoteka/Guide-en.html"
     }
   },

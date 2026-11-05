@@ -12,7 +12,7 @@ Data folder: %LOCALAPPDATA%\Popovantondev\Kartoteka. It contains program_data.db
 
 ## Requirements and limitations
 
-Tested on Windows 11 x 64. The EXE is unsigned. The table shows up to 2,000 rows and search up to 500 results. Free-form layout editing and Microsoft Access import are not implemented. Windows DPI 125/150% and two monitors were not separately tested; font smoothing depends on the egui renderer. No telemetry; core features work offline.
+Tested on Windows 11 x64. The EXE is unsigned. The table shows up to 2,000 rows and search up to 500 results. Free-form layout editing and Microsoft Access import are not implemented. Windows DPI 125/150% and two monitors were not separately tested; font smoothing depends on the egui renderer. No telemetry; core features work offline.
 
 ## SHA-256
 

@@ -2,7 +2,7 @@ const fs=require('fs'),path=require('path'),cp=require('child_process'),crypto=r
 const root=path.resolve(__dirname,'..');
 const walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(d,e.name)):[path.join(d,e.name)]);
 const digest=f=>crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex');
-const files=walk(path.join(root,'docs')).concat(['README.md','README.ru.md','README.de.md','public-content.json','PUBLIC-DOCUMENTATION.md'].map(n=>path.join(root,n)));
+const files=walk(path.join(root,'docs')).concat(['README.md','README.en.md','README.ru.md','public-content.json','PUBLIC-DOCUMENTATION.md'].map(n=>path.join(root,n)));
 const before=new Map(files.map(f=>[f,digest(f)]));
 const generated=cp.spawnSync(process.execPath,[path.join(__dirname,'generate-docs.cjs')],{encoding:'utf8'});
 if(generated.status!==0)throw Error(generated.stderr);
@@ -12,13 +12,13 @@ const metadata=JSON.parse(fs.readFileSync(path.join(root,'public-release.json'),
 if(metadata.version!==version)throw Error('Public version mismatch');
 for(const language of ['ru','de','en']){
  if(!metadata.languages.includes(language))throw Error('Missing language');
- for(const f of [language==='en'?'README.md':`README.${language}.md`,`docs/Guide-${language}.html`])if(!fs.readFileSync(path.join(root,f),'utf8').includes(version))throw Error('Missing version: '+f);
+ for(const f of [language==='de'?'README.md':`README.${language}.md`,`docs/Guide-${language}.html`])if(!fs.readFileSync(path.join(root,f),'utf8').includes(version))throw Error('Missing version: '+f);
 }
 for(const file of files.filter(f=>f.endsWith('.html'))){
  const html=fs.readFileSync(file,'utf8');
  for(const m of html.matchAll(/(?:href|src)="([^"]+)"/g)){
   const link=m[1];if(/^(https?:|mailto:|#)/.test(link))continue;
-  const target=path.resolve(path.dirname(file),link.split('#')[0]);if(!fs.existsSync(target))throw Error('Broken local link: '+link+' in '+file);
+  const target=path.resolve(path.dirname(file),link.split('#')[0].split('?')[0]);if(!fs.existsSync(target))throw Error('Broken local link: '+link+' in '+file);
  }
  if(!/<html lang="(ru|de|en)"/.test(html))throw Error('Missing page language');
 }

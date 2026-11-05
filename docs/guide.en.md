@@ -1,21 +1,21 @@
-# Classmates — Kartoteka
+# Kartoteka
 
-[RU](../README.ru.md) · [DE](../README.de.md) · [EN](../README.md)
+[RU](../README.ru.md) · [DE](../README.md) · [EN](../README.en.md)
 
 **Your local card index for Windows · 0.5.0 · Windows 11 x64**
 
-Keep classmates and other lists on your own computer. Cards, tables, custom fields, photos, documents, search and backups in one application.
+Keep contacts, collections and other lists on your own computer. Cards, tables, custom fields, photos, documents, search and backups in one application.
 
-[Download for Windows](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe) · [Portable ZIP](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Windows-x64.zip) · [User guide](https://popovantondev.github.io/Kartoteka/Guide-en.html) · [All applications](https://popovantondev.github.io/popovantondev/index.html)
+[Download for Windows](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe) · [Portable ZIP](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Windows-x64.zip) · [User guide](https://popovantondev.github.io/Kartoteka/Guide-en.html) · [All applications](https://popovantondev.github.io/popovantondev/index-en.html)
 
-![Classmates — Kartoteka](assets/app-en.png)
+![Kartoteka](assets/app-en.png)
 
-Actual 0.5.0 interface. Demonstration database without personal data.
+Actual 0.5.0 interface. Sample records, no personal data.
 
 ## Features
 
 - Record cards and a table with resizable columns.
-- Custom tables and 11 field types: text, numbers, date, time, date/time, checkbox, URL, photo and document.
+- Custom tables and 11 field types: short and long text, integers and decimals, date, time, date/time, checkbox, URL, photo and document.
 - Photo previews, managed local document copies and website links.
 - Search across the selected table, loaded-row filtering and CSV export.
 - Back up the database and attachments; a safety copy is made before restoring.
@@ -41,9 +41,9 @@ Create a table in Designer and add fields with a name, type, required flag and d
 
 The selected file is copied to the managed attachments folder. Save the record to attach it. Photos: JPG/JPEG, PNG, BMP, WEBP, up to 25 MB and 40 megapixels. Other documents: up to 250 MB. Documents open in the system application; HTTP/HTTPS links open in your browser.
 
-## Search and CSV
+## Search programs
 
-Search checks every field in the selected table. The table filter only checks loaded rows. CSV exports the selected table and escapes text against spreadsheet formulas. Dates remain YYYY-MM-DD and times HH:MM.
+Search
 
 ## Data safety and moving computers
 
@@ -55,11 +55,11 @@ Ctrl+S saves; Ctrl+N creates a record; Ctrl+F opens search. Drag or double-click
 
 ## Requirements and limitations
 
-Tested on Windows 11 x 64. The EXE is unsigned. The table shows up to 2,000 rows and search up to 500 results. Free-form layout editing and Microsoft Access import are not implemented. Windows DPI 125/150% and two monitors were not separately tested; font smoothing depends on the egui renderer. No telemetry; core features work offline.
+Tested on Windows 11 x64. The EXE is unsigned. The table shows up to 2,000 rows and search up to 500 results. Free-form layout editing and Microsoft Access import are not implemented. Windows DPI 125/150% and two monitors were not separately tested; font smoothing depends on the egui renderer. No telemetry; core features work offline.
 
 ## Build from source
 
-Requires Rust stable-x 86_64-pc-windows-gnullvm, rustfmt and LLVM-MinGW. scripts/build-noadmin.ps 1 finds LLVM-MinGW under %LOCALAPPDATA%\Popovantondev\KartotekaTools, runs fmt/check/test/release and produces dist with the EXE and DLLs. Setup: scripts/build-setup.ps 1 -NsisPath <path to makensis.exe>, using NSIS 3.11. Cargo.lock pins dependencies. Dependency licenses are unchanged; no separate project-code license has been assigned yet.
+Requires Rust stable-x86_64-pc-windows-gnullvm, rustfmt and LLVM-MinGW. scripts/build-noadmin.ps1 finds LLVM-MinGW under %LOCALAPPDATA%\Popovantondev\KartotekaTools, runs fmt/check/test/release and produces dist with the EXE and DLLs. Setup: scripts/build-setup.ps1 -NsisPath <path to makensis.exe>, using NSIS 3.11. Cargo.lock pins dependencies. Dependency licenses are unchanged; rights to the project code: see RIGHTS.md.
 
 ## Changes in 0.5.0
 
@@ -67,6 +67,10 @@ Added persistent RU/DE/EN selection; translated views, help, dialogs and validat
 
 ## Verification
 
-Build, language, data-preservation and installer checks are documented in RELEASE-CHECKS.md. Release file hashes are in SHA 256 SUMS.txt. Documentation checks do not replace running the app on your hardware.
+Build, language, data-preservation and installer checks are documented in RELEASE-CHECKS.md. Release file hashes are in SHA256SUMS.txt. Documentation checks do not replace running the app on your hardware.
+
+## Rights and use
+
+The source code is public for viewing; this is not an open-source licence. An unmodified release may be downloaded and run for personal use. Details: RIGHTS.md; rights to third-party components: third-party/README.md.
 
 [Report an issue](https://github.com/popovantondev/Kartoteka/issues/new) · [Source code](https://github.com/popovantondev/Kartoteka)

@@ -14,3 +14,11 @@ kartoteka_data/
 /release/
 *.exe
 *.dll
+
+# Service files of the build tooling stay out of the repository.
+/.autopilot/
+AGENTS.md
+CLAUDE.md
+/CONTEXT.md
+/docs/adr/
+/docs/architecture.md

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Keep contacts, collections and other lists on your own computer. Cards, tables, custom fields, photos, documents, search and backups in one application.">
+<title>Kartoteka — Your local card index for Windows</title>
+<link rel="icon" href="assets/kartoteka.svg" type="image/svg+xml">
+<script src="assets/kit/kit-theme.js"></script><link rel="stylesheet" href="assets/kit/kit.css?v=2026.11.05-1"><script src="assets/kit/programs.js?v=2026.11.05-1" defer></script><script src="assets/kit/kit.js?v=2026.11.05-1" defer></script>
+<link rel="stylesheet" href="assets/site.css?v=2026.11.05-1">
+</head>
+<body class="ppk-page ppk-prose">
+<a class="ppk-skip" href="#main">Skip to content</a>
+<div class="ppk-nav-wrap" id="ppk-nav-wrap">
+  <nav class="ppk-nav" aria-label="Main navigation">
+    <a class="ppk-brand" href="index-en.html"><img src="assets/kartoteka.svg" alt="" width="34" height="34"><span>Kartoteka</span></a>
+    <span class="ppk-spacer"></span>
+    <a class="ppk-back" href="https://popovantondev.github.io/popovantondev/index-en.html">← All programs</a>
+    <button class="ppk-search-btn" type="button" data-ppk-open-search aria-label="Search programs"><span>Search</span><kbd>Ctrl K</kbd></button>
+    <div class="ppk-langs"><a href="index-ru.html" lang="ru" hreflang="ru">RU</a><a href="index.html" lang="de" hreflang="de">DE</a><a href="index-en.html" lang="en" hreflang="en" aria-current="page">EN</a></div>
+    <button class="ppk-icon-btn ppk-theme-btn" type="button" data-ppk-theme aria-label="Switch colour scheme"></button>
+    <a class="ppk-icon-btn ppk-gh-btn" href="https://github.com/popovantondev/Kartoteka" aria-label="GitHub"></a>
+  </nav>
+</div>
+<main class="ppk-shell" id="main">
+<div class="ppk-hero">
+<div>
+<a class="ppk-pill" href="https://github.com/popovantondev/Kartoteka/releases/tag/v0.5.0"><span class="ppk-new">NEW</span><span>Version 0.5.0 is out</span> <span class="ppk-more">What's new →</span></a>
+<h1>Kartoteka</h1>
+<p class="ppk-lead">Keep contacts, collections and other lists on your own computer. Cards, tables, custom fields, photos, documents, search and backups in one application.</p>
+<span class="ppk-status">Release · 0.5.0</span> <span class="ppk-chip ppk-meta-chip">Windows 11 · x64</span>
+<div class="ppk-actions">
+<a class="ppk-btn ppk-btn-primary" href="https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe">Download for Windows</a>
+<a class="ppk-btn ppk-btn-gh" href="https://github.com/popovantondev/Kartoteka">Source code <span class="ppk-chip"><i class="ppk-dot"></i>Rust · egui · SQLite</span></a>
+<a class="ppk-btn" href="Guide-en.html">User guide ↗</a>
+</div>
+<p class="ppk-requirements"><strong>Before you start</strong>Windows 11 x64. No administrator rights needed. The EXE is unsigned.</p>
+</div>
+<figure class="ppk-preview">
+<div class="ppk-stage"><img src="assets/app-en.png" width="1360" height="860" alt="Kartoteka — Actual 0.5.0 interface. Sample records, no personal data." decoding="async"></div>
+<figcaption>Actual 0.5.0 interface. Sample records, no personal data.</figcaption>
+</figure>
+</div>
+
+<section class="ppk-bento-section ppk-section ppk-reveal">
+<h2>What's inside</h2>
+<p class="ppk-sub">Installation, features, data, checks.</p>
+<div class="ppk-bento">
+<div class="ppk-tile ppk-wide"><h3>Install and start</h3><p>Run Kartoteka-0.5.0-Setup.exe and keep the suggested user folder. Administrator rights and Rust are not required. Save your work and close the old application before updating. For a portable launch, extract the entire ZIP; keep the EXE and three DLL files together.</p><div class="ppk-term" role="group" aria-label="Install and start"><div class="ppk-term-bar"><i></i><i></i><i></i></div><div class="ppk-term-out"><div class="ppk-ps">1. Run Kartoteka-0.5.0-Setup.exe</div><div class="ppk-dim">   keep the user folder · no administrator rights, no Rust needed</div><div class="ppk-ps">2. Or extract the entire portable ZIP</div><div class="ppk-dim">   keep the EXE and three DLL files together</div><div class="ppk-ok">3. Open Kartoteka · language under Settings → General</div></div></div></div>
+<div class="ppk-tile"><h3>Runs locally</h3><p>No account, no cloud, no telemetry. Data stays unencrypted in the user folder; addresses open only when you click them.</p><span class="ppk-live">Local · offline</span></div>
+<div class="ppk-tile"><h3>Features</h3><div class="ppk-chips"><span>Record cards</span><span>Table view</span><span>Custom tables</span><span>11 field types</span><span>Photos and documents</span><span>Search and CSV export</span><span>Backup and restore</span><span>RU · DE · EN</span></div></div>
+<div class="ppk-tile ppk-wide"><h3>Checked</h3><ul class="ppk-checks"><li>Automatic checks on GitHub Actions: formatting, build, 39 tests</li><li>SHA-256 checksums for the release files (SHA256SUMS.txt)</li><li>Version 0.5.0 with a description of the changes</li><li>Interface and documentation in Russian, German and English</li><li>Installer checked against the protocol in RELEASE-CHECKS.md</li></ul></div>
+</div>
+</section>
+
+<section class="ppk-section ppk-demo-section ppk-reveal" id="demo" data-demo="kartoteka" aria-labelledby="demo-title">
+<h2 id="demo-title">Try it in the browser</h2>
+<p class="ppk-sub">A sample card index with invented entries: search, open a card, add or change a record. Everything stays in memory — reloading restores the original sample.</p>
+<div class="ppk-demo"><div class="ppk-demo-head"><span>Kartoteka</span><span class="ppk-demo-label">Demo — sample data</span></div>
+<div class="ppk-demo-body"><div class="ppk-demo-main"><noscript><p class="ppk-demo-empty">The demo needs JavaScript.</p></noscript></div></div></div>
+</section>
+
+<section class="ppk-section ppk-reveal">
+<h2>Features</h2>
+<ul class="ppk-checks ppk-feature-list"><li>Record cards and a table with resizable columns.</li><li>Custom tables and 11 field types: short and long text, integers and decimals, date, time, date/time, checkbox, URL, photo and document.</li><li>Photo previews, managed local document copies and website links.</li><li>Search across the selected table, loaded-row filtering and CSV export.</li><li>Back up the database and attachments; a safety copy is made before restoring.</li><li>Light theme, 80–150% scaling, collapsible menu and RU/DE/EN interface.</li></ul>
+</section>
+
+<section class="ppk-section ppk-reveal">
+<div class="ppk-bento">
+<div class="ppk-tile"><h3>Requirements and limitations</h3><p>Tested on Windows 11 x64. The EXE is unsigned. The table shows up to 2,000 rows and search up to 500 results. Free-form layout editing and Microsoft Access import are not implemented. Windows DPI 125/150% and two monitors were not separately tested; font smoothing depends on the egui renderer. No telemetry; core features work offline.</p></div>
+<div class="ppk-tile"><h3>Rights and use</h3><p>The source code is public for viewing; this is not an open-source licence. An unmodified release may be downloaded and run for personal use. Details: RIGHTS.md; rights to third-party components: third-party/README.md.</p></div>
+</div>
+</section>
+</main>
+<footer class="ppk-footer">
+  <span>© 2026 Anton Popov · Kartoteka 0.5.0</span>
+  <nav aria-label="Legal"><a href="https://popovantondev.github.io/popovantondev/impressum.html">Impressum</a><a href="https://popovantondev.github.io/popovantondev/datenschutz.html">Datenschutz</a><a href="https://github.com/popovantondev/Kartoteka">GitHub</a></nav>
+</footer>
+<script src="assets/demo.js?v=3c7292a7" defer></script>
+</body>
+</html>

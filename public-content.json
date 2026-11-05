@@ -1,8 +1,8 @@
 {
   "ru": {
-    "title": "Одноклассники — Картотека",
+    "title": "Картотека",
     "tagline": "Личная картотека для Windows",
-    "intro": "Храните карточки одноклассников и другие списки на своём компьютере. Таблицы, собственные поля, фотографии, документы, поиск и резервные копии — в одном приложении.",
+    "intro": "Храните карточки людей, коллекции и другие списки на своём компьютере. Таблицы, собственные поля, фотографии, документы, поиск и резервные копии — в одном приложении.",
     "download": "Скачать для Windows",
     "portable": "Переносной ZIP",
     "guide": "Руководство",
@@ -11,7 +11,7 @@
     "features": "Что умеет программа",
     "featureList": [
       "Карточка записи и общая таблица с изменяемой шириной столбцов.",
-      "Собственные таблицы и 11 типов полей: текст, числа, дата, время, дата и время, флажок, URL, фото и документ.",
+      "Собственные таблицы и 11 типов полей: короткий и длинный текст, целые и десятичные числа, дата, время, дата и время, флажок, URL, фото и документ.",
       "Фотографии с предпросмотром, управляемые локальные копии документов и ссылки на сайты.",
       "Поиск по всей выбранной таблице, фильтр загруженных строк и экспорт CSV.",
       "Резервное копирование базы вместе с вложениями и восстановление с защитным снимком.",
@@ -29,26 +29,90 @@
     "filesText": "Выбранный файл копируется в управляемую папку вложений; сохраните запись, чтобы закрепить его. Фото: JPG/JPEG, PNG, BMP, WEBP, до 25 МБ и 40 мегапикселей. Прочие документы: до 250 МБ. Открытие документа передаёт файл системному приложению. Ссылки HTTP/HTTPS открываются в браузере.",
     "backup": "Сохранность и перенос",
     "backupText": "Папка данных: %LOCALAPPDATA%\\Popovantondev\\Kartoteka. Здесь находятся program_data.db, assets, backups и preferences.json. Данные не шифруются. Для переноса создайте резервную копию и скопируйте всю папку данных на другой компьютер при закрытой программе. Кнопка восстановления работает с копиями в списке приложения; перед заменой создаётся защитный снимок. Удаление программы сохраняет данные.",
-    "search": "Поиск и CSV",
-    "searchText": "Поиск проверяет все поля выбранной таблицы. Фильтр таблицы работает по уже загруженным строкам. CSV экспортирует выбранную таблицу; текст экранируется для защиты от формул электронных таблиц. Значения дат сохраняются в формате YYYY-MM-DD, время — HH:MM.",
+    "search": "Поиск по программам",
+    "searchText": "Поиск",
     "limits": "Требования и ограничения",
-    "limitsText": "Проверено на Windows 11 x 64. EXE не подписан. Таблица показывает до 2000 строк, поиск — до 500 результатов. Свободное перетягивание полей формы и импорт Microsoft Access не реализованы. Системный DPI 125/150% и два монитора отдельно не проверены; качество сглаживания зависит от рендера egui. Программа не отправляет телеметрию; основные функции работают офлайн.",
+    "limitsText": "Проверено на Windows 11 x64. EXE не подписан. Таблица показывает до 2000 строк, поиск — до 500 результатов. Свободное перетягивание полей формы и импорт Microsoft Access не реализованы. Системный DPI 125/150% и два монитора отдельно не проверены; качество сглаживания зависит от рендера egui. Программа не отправляет телеметрию; основные функции работают офлайн.",
     "keys": "Горячие клавиши",
     "keysText": "Ctrl+S — сохранить; Ctrl+N — новая запись; Ctrl+F — поиск. Разделитель левого меню поддерживает перетягивание и двойной щелчок; при узком окне меню сворачивается автоматически.",
     "build": "Сборка из исходников",
-    "buildText": "Нужны Rust stable-x 86_64-pc-windows-gnullvm, rustfmt и LLVM-MinGW. scripts/build-noadmin.ps 1 ищет LLVM-MinGW в %LOCALAPPDATA%\\Popovantondev\\KartotekaTools, выполняет fmt/check/test/release и собирает dist с EXE и DLL. Для установщика: scripts/build-setup.ps 1 -NsisPath <путь к makensis.exe>. NSIS 3.11. Зависимости закреплены Cargo.lock. Исходники опубликованы без изменения лицензий зависимостей; отдельная лицензия на код проекта пока не назначена.",
+    "buildText": "Нужны Rust stable-x86_64-pc-windows-gnullvm, rustfmt и LLVM-MinGW. scripts/build-noadmin.ps1 ищет LLVM-MinGW в %LOCALAPPDATA%\\Popovantondev\\KartotekaTools, выполняет fmt/check/test/release и собирает dist с EXE и DLL. Для установщика: scripts/build-setup.ps1 -NsisPath <путь к makensis.exe>. NSIS 3.11. Зависимости закреплены Cargo.lock. Исходники опубликованы без изменения лицензий зависимостей; права на код проекта — в RIGHTS.ru.md.",
     "changes": "Изменения 0.5.0",
     "changesText": "Добавлены RU/DE/EN с сохранением выбора, переведены экраны, справка, диалоги и сообщения проверки. Локализован календарь; установщик предлагает три языка. Схема базы и формат вложений совместимы с 0.4.2.",
     "checks": "Проверки",
-    "checksText": "Проверки сборки, языка, сохранения данных и установщика описаны в RELEASE-CHECKS.md. Контрольные суммы файлов выпуска — SHA 256 SUMS.txt. Проверка документации не заменяет запуск программы на вашем оборудовании.",
+    "checksText": "Проверки сборки, языка, сохранения данных и установщика описаны в RELEASE-CHECKS.md. Контрольные суммы файлов выпуска — SHA256SUMS.txt. Проверка документации не заменяет запуск программы на вашем оборудовании.",
     "feedback": "Сообщить об ошибке",
     "privacy": "Локальные данные. Без аккаунта. Без обязательного интернета.",
-    "screen": "Настоящий интерфейс 0.5.0. Демонстрационная база без личных данных."
+    "screen": "Настоящий интерфейс 0.5.0. Примерные записи, без личных данных.",
+    "rights": "Права и использование",
+    "rightsText": "Исходный код открыт для просмотра; это не открытая лицензия. Неизменённый релиз можно скачать и запускать для личного использования. Подробности — RIGHTS.ru.md; права на сторонние компоненты — в third-party/README.md.",
+    "skip": "К содержимому",
+    "nav": "Основная навигация",
+    "back": "← Все программы",
+    "kbd": "Ctrl K",
+    "theme": "Сменить тему",
+    "legal": "Правовая информация",
+    "new": "НОВОЕ",
+    "pill": "Вышла версия 0.5.0",
+    "more": "Что нового →",
+    "statusRelease": "Выпуск · 0.5.0",
+    "reqTitle": "Перед началом",
+    "req": "Windows 11 x64. Права администратора не нужны. EXE не подписан.",
+    "bentoTitle": "Что внутри",
+    "bentoSub": "Установка, функции, данные, проверка.",
+    "localTitle": "Работает локально",
+    "localText": "Без аккаунта и облака, без телеметрии. Данные лежат в папке пользователя и не шифруются; адреса открываются только по вашему щелчку.",
+    "localLive": "Локально · офлайн",
+    "featChips": [
+      "Карточки записей",
+      "Общая таблица",
+      "Собственные таблицы",
+      "11 типов полей",
+      "Фото и документы",
+      "Поиск и экспорт CSV",
+      "Резервные копии",
+      "RU · DE · EN"
+    ],
+    "checkTitle": "Проверено",
+    "checkList": [
+      "Автоматические проверки на GitHub Actions: форматирование, сборка, 39 тестов",
+      "Контрольные суммы SHA-256 для файлов выпуска (SHA256SUMS.txt)",
+      "Версия 0.5.0 и описание изменений",
+      "Интерфейс и документация на русском, немецком и английском",
+      "Установщик проверен по протоколу в RELEASE-CHECKS.md"
+    ],
+    "term": [
+      [
+        "ps",
+        "1. Запустить Kartoteka-0.5.0-Setup.exe"
+      ],
+      [
+        "dim",
+        "   папка пользователя · без прав администратора, без Rust"
+      ],
+      [
+        "ps",
+        "2. Или распаковать весь переносной ZIP целиком"
+      ],
+      [
+        "dim",
+        "   EXE и три DLL должны лежать рядом"
+      ],
+      [
+        "ok",
+        "3. Открыть Kartoteka · язык — Настройки → Общие"
+      ]
+    ],
+    "feats": "Функции",
+    "demoTitle": "Попробовать в браузере",
+    "demoSub": "Учебная картотека с выдуманными записями: поиск, открытие карточки, добавление и изменение записи. Всё только в памяти — после перезагрузки страницы возвращается исходный пример.",
+    "demoLabel": "Демо — примерные данные",
+    "demoNoJs": "Для демо нужен JavaScript."
   },
   "de": {
-    "title": "Klassenkameraden — Kartoteka",
+    "title": "Kartoteka",
     "tagline": "Ihre lokale Kartei für Windows",
-    "intro": "Verwalten Sie Klassenkameraden und andere Listen auf Ihrem eigenen Computer. Karten, Tabellen, eigene Felder, Fotos, Dokumente, Suche und Sicherungen in einer Anwendung.",
+    "intro": "Verwalten Sie Kontakte, Sammlungen und andere Listen auf Ihrem eigenen Computer. Karten, Tabellen, eigene Felder, Fotos, Dokumente, Suche und Sicherungen in einer Anwendung.",
     "download": "Für Windows herunterladen",
     "portable": "Portable ZIP",
     "guide": "Anleitung",
@@ -57,7 +121,7 @@
     "features": "Funktionen",
     "featureList": [
       "Datensatzkarten und Gesamttabelle mit anpassbaren Spaltenbreiten.",
-      "Eigene Tabellen und 11 Feldtypen: Text, Zahlen, Datum, Uhrzeit, Datum/Uhrzeit, Kontrollkästchen, URL, Foto und Dokument.",
+      "Eigene Tabellen und 11 Feldtypen: kurzer und langer Text, Ganz- und Dezimalzahlen, Datum, Uhrzeit, Datum/Uhrzeit, Kontrollkästchen, URL, Foto und Dokument.",
       "Fotovorschau, verwaltete lokale Dokumentkopien und Website-Links.",
       "Suche in der ausgewählten Tabelle, Filter für geladene Zeilen und CSV-Export.",
       "Sicherung von Datenbank und Anhängen; Schutzkopie vor einer Wiederherstellung.",
@@ -75,26 +139,90 @@
     "filesText": "Die ausgewählte Datei wird in den verwalteten Anhangordner kopiert. Speichern Sie den Datensatz, um sie zuzuordnen. Fotos: JPG/JPEG, PNG, BMP, WEBP, höchstens 25 MB und 40 Megapixel. Andere Dokumente: höchstens 250 MB. Dokumente öffnen sich in der Systemanwendung; HTTP/HTTPS-Links im Browser.",
     "backup": "Datensicherung und Umzug",
     "backupText": "Datenordner: %LOCALAPPDATA%\\Popovantondev\\Kartoteka. Er enthält program_data.db, assets, backups und preferences.json. Daten sind unverschlüsselt. Zum Umzug zuerst sichern und bei geschlossener Anwendung den gesamten Datenordner auf den anderen Computer kopieren. Wiederherstellung verwendet Sicherungen aus der Programmliste und erstellt vorher eine Schutzkopie. Die Deinstallation erhält Ihre Daten.",
-    "search": "Suche und CSV",
-    "searchText": "Die Suche prüft alle Felder der ausgewählten Tabelle. Der Tabellenfilter gilt nur für geladene Zeilen. CSV exportiert die ausgewählte Tabelle; Text wird gegen Tabellenkalkulationsformeln abgesichert. Datumswerte bleiben YYYY-MM-DD, Uhrzeiten HH:MM.",
+    "search": "Programme durchsuchen",
+    "searchText": "Suchen",
     "limits": "Voraussetzungen und Grenzen",
-    "limitsText": "Auf Windows 11 x 64 geprüft. Die EXE ist nicht signiert. Die Tabelle zeigt bis zu 2000 Zeilen, die Suche bis zu 500 Treffer. Freie Formularanordnung und Microsoft-Access-Import sind nicht implementiert. Windows-DPI 125/150% und zwei Monitore sind nicht separat geprüft; die Schriftglättung hängt vom egui-Renderer ab. Keine Telemetrie; Kernfunktionen arbeiten offline.",
+    "limitsText": "Auf Windows 11 x64 geprüft. Die EXE ist nicht signiert. Die Tabelle zeigt bis zu 2000 Zeilen, die Suche bis zu 500 Treffer. Freie Formularanordnung und Microsoft-Access-Import sind nicht implementiert. Windows-DPI 125/150% und zwei Monitore sind nicht separat geprüft; die Schriftglättung hängt vom egui-Renderer ab. Keine Telemetrie; Kernfunktionen arbeiten offline.",
     "keys": "Tastenkürzel",
     "keysText": "Ctrl+S speichert; Ctrl+N erstellt einen Datensatz; Ctrl+F öffnet die Suche. Der Menütrenner unterstützt Ziehen und Doppelklick. Bei schmalen Fenstern klappt das Menü automatisch ein.",
     "build": "Aus Quellcode bauen",
-    "buildText": "Erforderlich: Rust stable-x 86_64-pc-windows-gnullvm, rustfmt und LLVM-MinGW. scripts/build-noadmin.ps 1 sucht LLVM-MinGW unter %LOCALAPPDATA%\\Popovantondev\\KartotekaTools, führt fmt/check/test/release aus und erstellt dist mit EXE und DLLs. Setup: scripts/build-setup.ps 1 -NsisPath <Pfad zu makensis.exe>, NSIS 3.11. Cargo.lock fixiert Abhängigkeiten. Deren Lizenzen bleiben unverändert; für den Projektcode wurde noch keine eigene Lizenz festgelegt.",
+    "buildText": "Erforderlich: Rust stable-x86_64-pc-windows-gnullvm, rustfmt und LLVM-MinGW. scripts/build-noadmin.ps1 sucht LLVM-MinGW unter %LOCALAPPDATA%\\Popovantondev\\KartotekaTools, führt fmt/check/test/release aus und erstellt dist mit EXE und DLLs. Setup: scripts/build-setup.ps1 -NsisPath <Pfad zu makensis.exe>, NSIS 3.11. Cargo.lock fixiert Abhängigkeiten. Deren Lizenzen bleiben unverändert; Rechte am Projektcode: siehe RIGHTS.de.md.",
     "changes": "Änderungen in 0.5.0",
     "changesText": "RU/DE/EN mit gespeicherter Sprachwahl; übersetzte Ansichten, Hilfe, Dialoge und Validierungsmeldungen. Lokalisierter Kalender und dreisprachiges Setup. Datenbankschema und Anhangformat bleiben mit 0.4.2 kompatibel.",
     "checks": "Prüfungen",
-    "checksText": "Build-, Sprach-, Datenerhaltungs- und Setup-Prüfungen stehen in RELEASE-CHECKS.md. Prüfsummen der Release-Dateien: SHA 256 SUMS.txt. Dokumentationsprüfungen ersetzen keinen Test auf Ihrer Hardware.",
+    "checksText": "Build-, Sprach-, Datenerhaltungs- und Setup-Prüfungen stehen in RELEASE-CHECKS.md. Prüfsummen der Release-Dateien: SHA256SUMS.txt. Dokumentationsprüfungen ersetzen keinen Test auf Ihrer Hardware.",
     "feedback": "Fehler melden",
     "privacy": "Lokale Daten. Kein Konto. Ohne verpflichtende Internetverbindung.",
-    "screen": "Echte Oberfläche 0.5.0. Demonstrationsdatenbank ohne persönliche Daten."
+    "screen": "Echte Oberfläche 0.5.0. Beispieldaten ohne persönliche Daten.",
+    "rights": "Rechte und Nutzung",
+    "rightsText": "Der Quellcode ist zur Ansicht öffentlich; es handelt sich nicht um eine Open-Source-Lizenz. Ein unverändertes Release darf für den persönlichen Gebrauch heruntergeladen und ausgeführt werden. Einzelheiten: RIGHTS.de.md; Rechte an Drittkomponenten: third-party/README.md.",
+    "skip": "Zum Inhalt",
+    "nav": "Hauptnavigation",
+    "back": "← Alle Programme",
+    "kbd": "Strg K",
+    "theme": "Farbschema wechseln",
+    "legal": "Rechtliches",
+    "new": "NEU",
+    "pill": "Version 0.5.0 ist da",
+    "more": "Was ist neu →",
+    "statusRelease": "Release · 0.5.0",
+    "reqTitle": "Vor dem Start",
+    "req": "Windows 11 x64. Keine Administratorrechte nötig. Die EXE ist nicht signiert.",
+    "bentoTitle": "Was drin steckt",
+    "bentoSub": "Installation, Funktionen, Daten, Prüfung.",
+    "localTitle": "Läuft lokal",
+    "localText": "Kein Konto, keine Cloud, keine Telemetrie. Die Daten liegen unverschlüsselt im Benutzerordner; Adressen öffnen sich nur auf Ihren Klick.",
+    "localLive": "Lokal · offline",
+    "featChips": [
+      "Datensatzkarten",
+      "Gesamttabelle",
+      "Eigene Tabellen",
+      "11 Feldtypen",
+      "Fotos und Dokumente",
+      "Suche und CSV-Export",
+      "Sicherung und Wiederherstellung",
+      "RU · DE · EN"
+    ],
+    "checkTitle": "Geprüft",
+    "checkList": [
+      "Automatische Prüfungen auf GitHub Actions: Formatierung, Build, 39 Tests",
+      "SHA-256-Prüfsummen für die Release-Dateien (SHA256SUMS.txt)",
+      "Version 0.5.0 mit Beschreibung der Änderungen",
+      "Oberfläche und Dokumentation auf Russisch, Deutsch und Englisch",
+      "Installer nach dem Protokoll in RELEASE-CHECKS.md geprüft"
+    ],
+    "term": [
+      [
+        "ps",
+        "1. Kartoteka-0.5.0-Setup.exe starten"
+      ],
+      [
+        "dim",
+        "   Benutzerordner behalten · keine Administratorrechte, kein Rust nötig"
+      ],
+      [
+        "ps",
+        "2. Alternativ: das gesamte portable ZIP entpacken"
+      ],
+      [
+        "dim",
+        "   EXE und drei DLL-Dateien müssen zusammenbleiben"
+      ],
+      [
+        "ok",
+        "3. Kartoteka öffnen · Sprache unter Einstellungen → Allgemein"
+      ]
+    ],
+    "feats": "Funktionen",
+    "demoTitle": "Direkt im Browser testen",
+    "demoSub": "Eine Beispiel-Kartei mit erfundenen Einträgen: suchen, Karte öffnen, Eintrag hinzufügen oder ändern. Alles nur im Speicher — nach dem Neuladen ist wieder der Ausgangszustand da.",
+    "demoLabel": "Demo — Beispieldaten",
+    "demoNoJs": "Für die Demo wird JavaScript benötigt."
   },
   "en": {
-    "title": "Classmates — Kartoteka",
+    "title": "Kartoteka",
     "tagline": "Your local card index for Windows",
-    "intro": "Keep classmates and other lists on your own computer. Cards, tables, custom fields, photos, documents, search and backups in one application.",
+    "intro": "Keep contacts, collections and other lists on your own computer. Cards, tables, custom fields, photos, documents, search and backups in one application.",
     "download": "Download for Windows",
     "portable": "Portable ZIP",
     "guide": "User guide",
@@ -103,7 +231,7 @@
     "features": "Features",
     "featureList": [
       "Record cards and a table with resizable columns.",
-      "Custom tables and 11 field types: text, numbers, date, time, date/time, checkbox, URL, photo and document.",
+      "Custom tables and 11 field types: short and long text, integers and decimals, date, time, date/time, checkbox, URL, photo and document.",
       "Photo previews, managed local document copies and website links.",
       "Search across the selected table, loaded-row filtering and CSV export.",
       "Back up the database and attachments; a safety copy is made before restoring.",
@@ -121,20 +249,84 @@
     "filesText": "The selected file is copied to the managed attachments folder. Save the record to attach it. Photos: JPG/JPEG, PNG, BMP, WEBP, up to 25 MB and 40 megapixels. Other documents: up to 250 MB. Documents open in the system application; HTTP/HTTPS links open in your browser.",
     "backup": "Data safety and moving computers",
     "backupText": "Data folder: %LOCALAPPDATA%\\Popovantondev\\Kartoteka. It contains program_data.db, assets, backups and preferences.json. Data is not encrypted. To move computers, create a backup and copy the entire data folder while the application is closed. Restore uses backups from the application list and creates a safety copy first. Uninstalling keeps your data.",
-    "search": "Search and CSV",
-    "searchText": "Search checks every field in the selected table. The table filter only checks loaded rows. CSV exports the selected table and escapes text against spreadsheet formulas. Dates remain YYYY-MM-DD and times HH:MM.",
+    "search": "Search programs",
+    "searchText": "Search",
     "limits": "Requirements and limitations",
-    "limitsText": "Tested on Windows 11 x 64. The EXE is unsigned. The table shows up to 2,000 rows and search up to 500 results. Free-form layout editing and Microsoft Access import are not implemented. Windows DPI 125/150% and two monitors were not separately tested; font smoothing depends on the egui renderer. No telemetry; core features work offline.",
+    "limitsText": "Tested on Windows 11 x64. The EXE is unsigned. The table shows up to 2,000 rows and search up to 500 results. Free-form layout editing and Microsoft Access import are not implemented. Windows DPI 125/150% and two monitors were not separately tested; font smoothing depends on the egui renderer. No telemetry; core features work offline.",
     "keys": "Keyboard shortcuts",
     "keysText": "Ctrl+S saves; Ctrl+N creates a record; Ctrl+F opens search. Drag or double-click the menu divider to change its mode. The menu collapses automatically in narrow windows.",
     "build": "Build from source",
-    "buildText": "Requires Rust stable-x 86_64-pc-windows-gnullvm, rustfmt and LLVM-MinGW. scripts/build-noadmin.ps 1 finds LLVM-MinGW under %LOCALAPPDATA%\\Popovantondev\\KartotekaTools, runs fmt/check/test/release and produces dist with the EXE and DLLs. Setup: scripts/build-setup.ps 1 -NsisPath <path to makensis.exe>, using NSIS 3.11. Cargo.lock pins dependencies. Dependency licenses are unchanged; no separate project-code license has been assigned yet.",
+    "buildText": "Requires Rust stable-x86_64-pc-windows-gnullvm, rustfmt and LLVM-MinGW. scripts/build-noadmin.ps1 finds LLVM-MinGW under %LOCALAPPDATA%\\Popovantondev\\KartotekaTools, runs fmt/check/test/release and produces dist with the EXE and DLLs. Setup: scripts/build-setup.ps1 -NsisPath <path to makensis.exe>, using NSIS 3.11. Cargo.lock pins dependencies. Dependency licenses are unchanged; rights to the project code: see RIGHTS.md.",
     "changes": "Changes in 0.5.0",
     "changesText": "Added persistent RU/DE/EN selection; translated views, help, dialogs and validation messages. Localized calendar and a three-language installer. Database schema and attachment format remain compatible with 0.4.2.",
     "checks": "Verification",
-    "checksText": "Build, language, data-preservation and installer checks are documented in RELEASE-CHECKS.md. Release file hashes are in SHA 256 SUMS.txt. Documentation checks do not replace running the app on your hardware.",
+    "checksText": "Build, language, data-preservation and installer checks are documented in RELEASE-CHECKS.md. Release file hashes are in SHA256SUMS.txt. Documentation checks do not replace running the app on your hardware.",
     "feedback": "Report an issue",
     "privacy": "Local data. No account. No mandatory internet connection.",
-    "screen": "Actual 0.5.0 interface. Demonstration database without personal data."
+    "screen": "Actual 0.5.0 interface. Sample records, no personal data.",
+    "rights": "Rights and use",
+    "rightsText": "The source code is public for viewing; this is not an open-source licence. An unmodified release may be downloaded and run for personal use. Details: RIGHTS.md; rights to third-party components: third-party/README.md.",
+    "skip": "Skip to content",
+    "nav": "Main navigation",
+    "back": "← All programs",
+    "kbd": "Ctrl K",
+    "theme": "Switch colour scheme",
+    "legal": "Legal",
+    "new": "NEW",
+    "pill": "Version 0.5.0 is out",
+    "more": "What's new →",
+    "statusRelease": "Release · 0.5.0",
+    "reqTitle": "Before you start",
+    "req": "Windows 11 x64. No administrator rights needed. The EXE is unsigned.",
+    "bentoTitle": "What's inside",
+    "bentoSub": "Installation, features, data, checks.",
+    "localTitle": "Runs locally",
+    "localText": "No account, no cloud, no telemetry. Data stays unencrypted in the user folder; addresses open only when you click them.",
+    "localLive": "Local · offline",
+    "featChips": [
+      "Record cards",
+      "Table view",
+      "Custom tables",
+      "11 field types",
+      "Photos and documents",
+      "Search and CSV export",
+      "Backup and restore",
+      "RU · DE · EN"
+    ],
+    "checkTitle": "Checked",
+    "checkList": [
+      "Automatic checks on GitHub Actions: formatting, build, 39 tests",
+      "SHA-256 checksums for the release files (SHA256SUMS.txt)",
+      "Version 0.5.0 with a description of the changes",
+      "Interface and documentation in Russian, German and English",
+      "Installer checked against the protocol in RELEASE-CHECKS.md"
+    ],
+    "term": [
+      [
+        "ps",
+        "1. Run Kartoteka-0.5.0-Setup.exe"
+      ],
+      [
+        "dim",
+        "   keep the user folder · no administrator rights, no Rust needed"
+      ],
+      [
+        "ps",
+        "2. Or extract the entire portable ZIP"
+      ],
+      [
+        "dim",
+        "   keep the EXE and three DLL files together"
+      ],
+      [
+        "ok",
+        "3. Open Kartoteka · language under Settings → General"
+      ]
+    ],
+    "feats": "Features",
+    "demoTitle": "Try it in the browser",
+    "demoSub": "A sample card index with invented entries: search, open a card, add or change a record. Everything stays in memory — reloading restores the original sample.",
+    "demoLabel": "Demo — sample data",
+    "demoNoJs": "The demo needs JavaScript."
   }
 }
