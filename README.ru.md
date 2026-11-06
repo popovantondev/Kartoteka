@@ -1,12 +1,16 @@
+<div align="center">
+  <img src="docs/assets/kartoteka.svg" width="128" alt="Значок Картотека">
+</div>
+
 # Картотека
 
-[RU](README.ru.md) · [DE](README.md) · [EN](README.en.md)
-
-**Личная картотека для Windows · 0.5.0 · Windows 11 x64**
+**Русский** · [Deutsch](README.md) · [English](README.en.md)
 
 Храните карточки людей, коллекции и другие списки на своём компьютере. Таблицы, собственные поля, фотографии, документы, поиск и резервные копии — в одном приложении.
 
-[Скачать для Windows](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe) · [Переносной ZIP](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Windows-x64.zip) · [Руководство](https://popovantondev.github.io/Kartoteka/Guide-ru.html) · [Все программы](https://popovantondev.github.io/popovantondev/index-ru.html)
+**Личная картотека для Windows · 0.5.0 · Windows 11 x64**
+
+**[Скачать для Windows](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe)** · **[Переносной ZIP](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Windows-x64.zip)** · **[Сайт](https://popovantondev.github.io/Kartoteka/index-ru.html)** · **[Руководство](https://popovantondev.github.io/Kartoteka/Guide-ru.html)** · **[Попробовать в браузере](https://popovantondev.github.io/Kartoteka/index-ru.html#demo)** · **[Сообщить об ошибке](https://github.com/popovantondev/Kartoteka/issues/new)**
 
 ![Картотека](docs/assets/app-ru.png)
 

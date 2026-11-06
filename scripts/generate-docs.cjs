@@ -15,12 +15,16 @@ fs.mkdirSync(root+'/scripts',{recursive:true});
 const sections=['install','language','first','custom','files','search','backup','keys','limits','build','changes','checks','rights'];
 const stack='Rust · egui · SQLite';
 for(const l of languages){const t=data[l];
- const links=languages.map(x=>`[${x.toUpperCase()}](${readme(x)})`).join(' · ');
- let md=`# ${t.title}\n\n${links}\n\n**${t.tagline} · 0.5.0 · Windows 11 x64**\n\n${t.intro}\n\n[${t.download}](${setupUrl}) · [${t.portable}](${zipUrl}) · [${t.guide}](${site}Guide-${l}.html) · [${t.catalog}](${catalogBase}${page(l)})\n\n![${t.title}](docs/assets/app-${l}.png)\n\n${t.screen}\n\n## ${t.features}\n\n${t.featureList.map(x=>'- '+x).join('\n')}\n`;
+ // README standard: icon, title, language line (RU · DE · EN, current bold), what, platform, buttons, preview.
+ const langName={ru:'Русский',de:'Deutsch',en:'English'},readmeAlt={ru:`Значок ${t.title}`,de:`${t.title} Symbol`,en:`${t.title} icon`};
+ const links=['ru','de','en'].map(x=>x===l?`**${langName[x]}**`:`[${langName[x]}](${readme(x)})`).join(' · ');
+ const btn={ru:{site:'Сайт',demo:'Попробовать в браузере'},de:{site:'Webseite',demo:'Im Browser ausprobieren'},en:{site:'Website',demo:'Try in the browser'}}[l];
+ const row=[[t.download,setupUrl],[t.portable,zipUrl],[btn.site,site+(l==='de'?'':page(l))],[t.guide,`${site}Guide-${l}.html`],[btn.demo,`${site}${page(l)}#demo`],[t.feedback,`${repo}/issues/new`]].map(([a,u])=>`**[${a}](${u})**`).join(' · ');
+ let md=`<div align="center">\n  <img src="docs/assets/kartoteka.svg" width="128" alt="${readmeAlt[l]}">\n</div>\n\n# ${t.title}\n\n${links}\n\n${t.intro}\n\n**${t.tagline} · 0.5.0 · Windows 11 x64**\n\n${row}\n\n![${t.title}](docs/assets/app-${l}.png)\n\n${t.screen}\n\n## ${t.features}\n\n${t.featureList.map(x=>'- '+x).join('\n')}\n`;
  for(const k of sections)md+=`\n## ${t[k]}\n\n${t[k+'Text']}\n`;
  md+=`\n[${t.feedback}](${repo}/issues/new) · [${t.source}](${repo})\n`;
  fs.writeFileSync(root+'/'+readme(l),md);
- fs.writeFileSync(root+`/docs/guide.${l}.md`,md.replaceAll('](docs/assets/','](assets/').replaceAll('(README.','(../README.'));
+ fs.writeFileSync(root+`/docs/guide.${l}.md`,md.replaceAll('](docs/assets/','](assets/').replaceAll('src="docs/assets/','src="assets/').replaceAll('(README.','(../README.'));
  fs.writeFileSync(root+`/docs/release-notes.${l}.md`,`# ${t.changes}\n\n${t.changesText}\n\n## ${t.install}\n\n${t.installText}\n\n## ${t.backup}\n\n${t.backupText}\n\n## ${t.limits}\n\n${t.limitsText}\n\n## SHA-256\n\n[SHA256SUMS.txt](${repo}/releases/download/v0.5.0/SHA256SUMS.txt)\n`);
  // Shared kit: head, header and footer are identical on landing page and guide.
  const head=(title,desc)=>`<!doctype html>\n<html lang="${l}">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1">\n<meta name="color-scheme" content="light dark">\n<meta name="description" content="${esc(desc)}">\n<title>${esc(title)}</title>\n<link rel="icon" href="assets/kartoteka.svg" type="image/svg+xml">\n<script src="assets/kit/kit-theme.js"></script><link rel="stylesheet" href="assets/kit/kit.css?v=${kit}"><script src="assets/kit/programs.js?v=${kit}" defer></script><script src="assets/kit/kit.js?v=${kit}" defer></script>\n<link rel="stylesheet" href="assets/site.css?v=${kit}">\n</head>\n`;

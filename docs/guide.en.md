@@ -1,12 +1,16 @@
+<div align="center">
+  <img src="assets/kartoteka.svg" width="128" alt="Kartoteka icon">
+</div>
+
 # Kartoteka
 
-[RU](../README.ru.md) · [DE](../README.md) · [EN](../README.en.md)
-
-**Your local card index for Windows · 0.5.0 · Windows 11 x64**
+[Русский](../README.ru.md) · [Deutsch](../README.md) · **English**
 
 Keep contacts, collections and other lists on your own computer. Cards, tables, custom fields, photos, documents, search and backups in one application.
 
-[Download for Windows](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe) · [Portable ZIP](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Windows-x64.zip) · [User guide](https://popovantondev.github.io/Kartoteka/Guide-en.html) · [All applications](https://popovantondev.github.io/popovantondev/index-en.html)
+**Your local card index for Windows · 0.5.0 · Windows 11 x64**
+
+**[Download for Windows](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe)** · **[Portable ZIP](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Windows-x64.zip)** · **[Website](https://popovantondev.github.io/Kartoteka/index-en.html)** · **[User guide](https://popovantondev.github.io/Kartoteka/Guide-en.html)** · **[Try in the browser](https://popovantondev.github.io/Kartoteka/index-en.html#demo)** · **[Report an issue](https://github.com/popovantondev/Kartoteka/issues/new)**
 
 ![Kartoteka](assets/app-en.png)
 

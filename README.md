@@ -1,12 +1,16 @@
+<div align="center">
+  <img src="docs/assets/kartoteka.svg" width="128" alt="Kartoteka Symbol">
+</div>
+
 # Kartoteka
 
-[RU](README.ru.md) · [DE](README.md) · [EN](README.en.md)
-
-**Ihre lokale Kartei für Windows · 0.5.0 · Windows 11 x64**
+[Русский](README.ru.md) · **Deutsch** · [English](README.en.md)
 
 Verwalten Sie Kontakte, Sammlungen und andere Listen auf Ihrem eigenen Computer. Karten, Tabellen, eigene Felder, Fotos, Dokumente, Suche und Sicherungen in einer Anwendung.
 
-[Für Windows herunterladen](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe) · [Portable ZIP](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Windows-x64.zip) · [Anleitung](https://popovantondev.github.io/Kartoteka/Guide-de.html) · [Alle Programme](https://popovantondev.github.io/popovantondev/index.html)
+**Ihre lokale Kartei für Windows · 0.5.0 · Windows 11 x64**
+
+**[Für Windows herunterladen](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe)** · **[Portable ZIP](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Windows-x64.zip)** · **[Webseite](https://popovantondev.github.io/Kartoteka/)** · **[Anleitung](https://popovantondev.github.io/Kartoteka/Guide-de.html)** · **[Im Browser ausprobieren](https://popovantondev.github.io/Kartoteka/index.html#demo)** · **[Fehler melden](https://github.com/popovantondev/Kartoteka/issues/new)**
 
 ![Kartoteka](docs/assets/app-de.png)
 
