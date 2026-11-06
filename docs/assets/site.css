@@ -5,6 +5,8 @@
 .ppk-meta-chip{margin-left:6px}
 .ppk-feature-list{max-width:860px}
 .ppk-guide{max-width:880px;padding-bottom:40px}
+.ppk-guide-home{margin:24px 0 0}
+.ppk-guide-home+h1{margin-top:20px}
 .ppk-guide h1{margin:28px 0 12px;font-size:clamp(30px,5vw,44px);line-height:1.15}
 .ppk-guide section{scroll-margin-top:84px;margin:30px 0}
 .ppk-guide section>p{max-width:75ch}

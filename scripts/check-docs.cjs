@@ -21,6 +21,10 @@ for(const file of files.filter(f=>f.endsWith('.html'))){
   const target=path.resolve(path.dirname(file),link.split('#')[0].split('?')[0]);if(!fs.existsSync(target))throw Error('Broken local link: '+link+' in '+file);
  }
  if(!/<html lang="(ru|de|en)"/.test(html))throw Error('Missing page language');
+ if(/^Guide-(ru|de|en)\.html$/.test(path.basename(file))){
+  const lang=path.basename(file).slice(6,8),home={ru:'← На страницу программы',de:'← Zur Programmseite',en:'← Program page'}[lang],landing=lang==='de'?'index.html':`index-${lang}.html`;
+  if(!new RegExp(`<a\\b[^>]*href="${landing}"[^>]*>\\s*${home}\\s*</a>`).test(html))throw Error('No button to the program page: '+file);
+ }
 }
 const catalog=JSON.parse(fs.readFileSync(path.join(root,'locales/ui.json'),'utf8'));
 for(const [key,value]of Object.entries(catalog))for(const l of ['de','en'])if(!value[l]?.trim())throw Error('Missing translation: '+key);

@@ -4,6 +4,7 @@ const data=JSON.parse(fs.readFileSync(root+'/public-content.json','utf8'));
 const languages=['ru','de','en'];
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 // German is the root language: index.html / README.md; the other languages carry their code in the file name.
+const homeLabel={ru:'← На страницу программы',de:'← Zur Programmseite',en:'← Program page'};
 const page=l=>l==='de'?'index.html':`index-${l}.html`,readme=l=>l==='de'?'README.md':`README.${l}.md`;
 const setupUrl=`${repo}/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe`,zipUrl=`${repo}/releases/download/v0.5.0/Kartoteka-0.5.0-Windows-x64.zip`,releaseUrl=`${repo}/releases/tag/v0.5.0`;
 const kit=fs.readFileSync(root+'/docs/assets/kit/KIT_VERSION','utf8').trim();
@@ -85,20 +86,20 @@ ${demoSection}
  fs.writeFileSync(root+'/docs/'+page(l),index);
  // Guide page.
  const guide=head(`${t.title} — ${t.guide}`,t.intro)+header(l,x=>`Guide-${x}.html`)+`<main class="ppk-shell ppk-guide" id="main">
+<p class="ppk-guide-home"><a class="ppk-btn" href="${page(l)}">${esc(homeLabel[l])}</a></p>
 <h1>${esc(t.guide)}</h1>
 <p class="ppk-lead">${esc(t.intro)}</p>
 <div class="ppk-actions">
 <a class="ppk-btn ppk-btn-primary" href="${setupUrl}">${esc(t.download)}</a>
 <a class="ppk-btn" href="${zipUrl}">${esc(t.portable)}</a>
 <a class="ppk-btn ppk-btn-gh" href="${repo}">${esc(t.source)} <span class="ppk-chip"><i class="ppk-dot"></i>${stack}</span></a>
-<a class="ppk-btn" href="${page(l)}">${esc(t.title)}</a>
 </div>
 <nav class="ppk-contents" aria-label="${esc(t.guide)}">${sections.map(k=>`<a href="#${k}">${esc(t[k])}</a>`).join('')}</nav>
 ${sections.map(k=>`<section id="${k}"><h2>${esc(t[k])}</h2><p>${esc(t[k+'Text'])}</p></section>`).join('\n')}
 <figure class="ppk-guide-shot"><img src="assets/app-${l}.png" width="1360" height="860" alt="${esc(alt)}" decoding="async"><figcaption>${esc(t.screen)}</figcaption></figure>
 </main>
 `+footer;
- fs.writeFileSync(root+`/docs/Guide-${l}.html`,guide);
+ fs.writeFileSync(root+`/docs/Guide-${l}.html`,guide.replace(`assets/site.css?v=${kit}`,`assets/site.css?v=${kit}-g1`));
 }
 // Old German root name stays as a redirect, so existing links keep working.
 fs.writeFileSync(root+'/docs/index-de.html',`<!doctype html>\n<html lang="de">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1">\n<script>location.replace('index.html'+location.hash)</script>\n<meta http-equiv="refresh" content="0; url=index.html">\n<link rel="canonical" href="${site}index.html">\n<meta name="robots" content="noindex">\n<link rel="icon" href="assets/kartoteka.svg" type="image/svg+xml">\n<title>Kartoteka — Weiterleitung</title>\n</head>\n<body>\n<p>Diese Seite ist umgezogen: <a href="index.html">Kartoteka — Startseite</a></p>\n<p><a href="index-en.html" lang="en" hreflang="en">English</a> · <a href="index-ru.html" lang="ru" hreflang="ru">Русский</a></p>\n</body>\n</html>\n`);
@@ -111,6 +112,8 @@ fs.writeFileSync(root+'/docs/assets/site.css',`/* Page accent and page-only rule
 .ppk-meta-chip{margin-left:6px}
 .ppk-feature-list{max-width:860px}
 .ppk-guide{max-width:880px;padding-bottom:40px}
+.ppk-guide-home{margin:24px 0 0}
+.ppk-guide-home+h1{margin-top:20px}
 .ppk-guide h1{margin:28px 0 12px;font-size:clamp(30px,5vw,44px);line-height:1.15}
 .ppk-guide section{scroll-margin-top:84px;margin:30px 0}
 .ppk-guide section>p{max-width:75ch}
