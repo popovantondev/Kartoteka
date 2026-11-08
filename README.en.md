@@ -1,18 +1,29 @@
-<div align="center">
-  <img src="docs/assets/kartoteka.svg" width="128" alt="Kartoteka icon">
-</div>
+<!-- ppk-readme:head:start -->
+<a href="https://popovantondev.github.io/Kartoteka/index-en.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/header-en-dark.596af9a4.svg"><img src="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/header-en-light.bf595f73.svg" width="880" height="188" alt="Kartoteka — Contacts, collections and lists on your own computer. Windows 11 · x64, Release 0.5.0"></picture></a>
+<!-- ppk-readme:head:end -->
 
 # Kartoteka
 
 [Русский](README.ru.md) · [Deutsch](README.md) · **English**
 
+<!-- ppk-readme:body:start -->
+<p>
+<a href="https://github.com/popovantondev/Kartoteka/releases/tag/v0.5.0"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/btn-download-en-dark.e539ee75.svg"><img src="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/btn-download-en-light.0b21c6cc.svg" width="136" height="36" alt="Download"></picture></a>
+<a href="https://popovantondev.github.io/Kartoteka/index-en.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/btn-website-en-dark.0a4a827a.svg"><img src="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/btn-website-en-light.df215278.svg" width="120" height="36" alt="Website"></picture></a>
+<a href="https://popovantondev.github.io/Kartoteka/Guide-en.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/btn-guide-en-dark.aa8dc4fd.svg"><img src="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/btn-guide-en-light.66e4fc46.svg" width="141" height="36" alt="User guide"></picture></a>
+<a href="https://popovantondev.github.io/Kartoteka/index-en.html#demo"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/btn-demo-en-dark.8b547d19.svg"><img src="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/btn-demo-en-light.24c940ba.svg" width="171" height="36" alt="Try in browser"></picture></a>
+<a href="https://github.com/popovantondev/Kartoteka/issues/new"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/btn-bug-en-dark.fa7f7e14.svg"><img src="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/btn-bug-en-light.dfda645f.svg" width="196" height="36" alt="Report a problem"></picture></a>
+</p>
+
+<p><a href="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/assets/app-en.png"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/preview-en-dark.3578c37e.webp"><img src="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/preview-en-light.d8009063.webp" width="880" height="516" alt="Kartoteka interface"></picture></a><br>
+<sub><a href="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/assets/app-en.png">Full screenshot</a></sub></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/divider-dark.2ce65351.svg"><img src="https://raw.githubusercontent.com/popovantondev/Kartoteka/main/docs/readme/divider-light.09467238.svg" width="880" height="6" alt="Divider"></picture>
+<!-- ppk-readme:body:end -->
+
 Keep contacts, collections and other lists on your own computer. Cards, tables, custom fields, photos, documents, search and backups in one application.
 
 **Your local card index for Windows · 0.5.0 · Windows 11 x64**
-
-**[Download for Windows](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Setup.exe)** · **[Portable ZIP](https://github.com/popovantondev/Kartoteka/releases/download/v0.5.0/Kartoteka-0.5.0-Windows-x64.zip)** · **[Website](https://popovantondev.github.io/Kartoteka/index-en.html)** · **[User guide](https://popovantondev.github.io/Kartoteka/Guide-en.html)** · **[Try in the browser](https://popovantondev.github.io/Kartoteka/index-en.html#demo)** · **[Report an issue](https://github.com/popovantondev/Kartoteka/issues/new)**
-
-![Kartoteka](docs/assets/app-en.png)
 
 Actual 0.5.0 interface. Sample records, no personal data.
 
