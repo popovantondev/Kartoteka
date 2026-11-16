@@ -133,8 +133,8 @@ fs.writeFileSync(root+'/docs/assets/site.css',`/* Page accent and page-only rule
 .demo-input:focus-visible,.demo-open:focus-visible,.demo-card button:focus-visible{outline:2px solid var(--ppk-focus);outline-offset:2px}
 textarea.demo-input{resize:vertical;min-height:56px}
 .demo-count{margin:0 0 10px;color:var(--ppk-muted);font-size:14px}
-.demo-open{display:block;width:100%;min-width:0;padding:2px 0;border:0;background:transparent;color:inherit;font:inherit;text-align:left;cursor:pointer;overflow-wrap:anywhere}
-.demo-open small{color:var(--ppk-muted)}
+.demo-open{display:block;width:100%;min-width:0;min-height:44px;padding:10px 0;border:0;background:transparent;color:inherit;font:inherit;text-align:left;cursor:pointer;overflow-wrap:anywhere}
+.demo-open small{color:var(--ppk-muted);font-size:12px}
 .demo-card{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 14px}
 .demo-fld{display:block;min-width:0;font-size:13px;color:var(--ppk-muted)}
 .demo-fld:nth-of-type(6),.demo-error,.demo-actions{grid-column:1/-1}
